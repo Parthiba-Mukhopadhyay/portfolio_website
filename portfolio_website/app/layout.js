@@ -1,4 +1,5 @@
 import './globals.css'
+import {NavBar} from "../components"
 import { Ubuntu } from 'next/font/google'
 const font = Ubuntu({ weight: ["300", "400", "500", "700"], subsets:['latin'] })
 
@@ -13,7 +14,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
      
       <body> 
-        
+        <NavBar/>
         <main className={font.className} >
         
 
