@@ -6,7 +6,7 @@ import mypic from "../assets/mypic.jpg";
 import Link from "next/link";
 const Hero = () => {
   return (
-    <div className="bg-black">
+    <div className="bg-gradient-to-br from-slate-900 to-slate-700"> 
       <div className="lg:m-22 md:pl-14 m-8 flex flex-row pb-16">
         <div className="flex lg:basis-2/3 md:basis-2/3 ">
           <div>
@@ -14,7 +14,7 @@ const Hero = () => {
               Hello, I am Parthiba Mukhopadhyay
             </p>
             <p className="lg:text-5xl text-4xl text-center font-bold pl-8 pb-6 ">
-              Wondering Who am I?
+              Wondering Who I am?
             </p>
             <p className="lg:text-3xl text-2xl text-center font-bold pl-8 pb-6 ">
               Welcome to my story!
@@ -26,8 +26,8 @@ const Hero = () => {
             <Typed
               className="text-white lg:text-3xl text-2xl font-bold pl-2 "
               strings={[" a Programmer", " a Web developer", " a ML Enthusiast", " so much more..."]}
-              typeSpeed={180}
-              backSpeed={180}
+              typeSpeed={200}
+              backSpeed={300}
               loop
             />
             </div>
@@ -45,7 +45,7 @@ const Hero = () => {
             </Link>
           </div>
         </div>
-        <div className="hidden md:flex  md:pt-20 lg:items-center pr-20 lg:pt-0">
+        <div className="hidden md:flex  md:pt-20 lg:items-center pr-20 lg:p-10">
           <Image src={mypic} width={400} height={400} alt="hmt" />
         </div>
       </div>

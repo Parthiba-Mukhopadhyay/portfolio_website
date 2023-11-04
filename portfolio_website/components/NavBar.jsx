@@ -4,7 +4,7 @@ import logo from "../assets/Logo.png";
 import Link from "next/link";
 function NavBar(props) {
   return (
-    <div className="navbar pb-20 bg-black">
+    <div className="navbar pb-20 ">
       <link
         rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
@@ -21,7 +21,7 @@ function NavBar(props) {
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
       />
 
-      <div className="grid grid-cols-2 justify-evenly px-14 py-2 w-screen h-32 items-center fixed top-0 bg-black z-40">
+      <div className="grid grid-cols-2 justify-evenly px-14 py-2 w-screen h-5 items-center sticky top-0 bg-gradient-to-tr from-slate-900 to-slate-700 z-40">
         <div>
           <Link href="/">
             <Image src={logo} className="h-28 w-28" alt="Parthiba logo" />
