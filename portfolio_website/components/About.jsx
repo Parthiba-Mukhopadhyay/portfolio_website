@@ -38,17 +38,30 @@ const About = () => {
               <br></br><br></br> Let's connect and achieve great results
               together!
             </p>
+            <div>
+                <div className="pl-7 pb-3">
+                    <ul className="flex gap-3">
+                        <li>Instagram</li>
+                        <li>LinkedIn</li>
+                        <li>Twitter</li>
+                        <li>GitHub</li>
+                        <li>Facebook</li>
+                        <li>Medium</li>
+
+                    </ul>
+                </div>
+            </div>
             <div className="p-4">
                 <div>
                     <p className="text-3xl font-semibold">EXPERIENCE</p>
                 </div>
                 <div className="p-3">
-                    <p>Aug'23 - Oct'23</p>
+                    <p className="text-xl bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent">Aug'23 - Oct'23</p>
                     <p>HMT Architects</p>
                     <p>Web Developer Intern</p>
                 </div>
                 <div className="p-3">
-                    <p>Sep'23 - Present</p>
+                    <p >Sep'23 - Present</p>
                     <p>Alpha Code Labs</p>
                     <p>Full stack Developer Intern</p>
                 </div>
