@@ -1,0 +1,31 @@
+/* CSS stylesheet */
+.text-animation {
+    animation: fade-in-text 1.5s ease-in-out forwards;
+  }
+  
+  @keyframes fade-in-text {
+    0% {
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .image-animation {
+    animation: fade-in-image 1.5s ease-in-out forwards;
+  }
+  
+  @keyframes fade-in-image {
+    0% {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  

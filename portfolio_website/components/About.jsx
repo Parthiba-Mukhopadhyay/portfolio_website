@@ -2,40 +2,64 @@
 import React from "react";
 import Image from "next/image";
 import Typed from "react-typed";
-import mypic from "../assets/mypic.jpg";
+import myavatar1 from "../assets/myavatar1.png";
 import Link from "next/link";
 const About = () => {
   return (
-    <div className="bg-gradient-to-br from-slate-900 to-slate-700"> 
+    <div className="bg-black">
       <div className="lg:m-22 md:pl-14 m-8 flex flex-row pb-16">
         <div className="flex lg:basis-2/3 md:basis-2/3 ">
           <div>
+            <p className="text-7xl p-4">About Me</p>
             <div className="flex">
-            <p className="lg:text-3xl text-2xl  font-bold pl-8 ">
-              I am 
-            </p>
-            <Typed
-              className="text-white lg:text-3xl text-2xl font-bold pl-2 "
-              strings={[" a Programmer", " a Web developer", " a ML Enthusiast", " so much more..."]}
-              typeSpeed={200}
-              backSpeed={300}
-              loop
-            />
+              <p className="lg:text-3xl text-2xl text-white font-bold pl-8 pt-3 ">
+                I am
+              </p>
+              <Typed
+                className="text-white lg:text-3xl text-2xl font-bold pl-2 pt-3"
+                strings={[
+                  " a Programmer",
+                  "a Designer",
+                  " a Web developer",
+                  " a ML Enthusiast",
+                  " so much more...",
+                ]}
+                typeSpeed={180}
+                backSpeed={180}
+                loop
+              />
             </div>
-            <p className="p-8 mr-4">
-              HMT Architects, is a visionary design firm with extensive
-              experience in Architecture, Interior, and Infrastructure. Our team
-              has proven our excellence as one of Chennai's top architectural
-              firms. Our success stems from a process-driven approach and
-              unwavering commitment to fulfilling our clients' desires.
+            <p className="p-8 text-white mr-4">
+              I'm a pre-final year B.Tech student
+              majoring in Computer Science Engineering at VIT Chennai. I excel
+              in UI design and full-stack development. My expertise lies in AI
+              and ML, with a track record of crafting effective ML models for
+              various projects. 
+              <br></br><br></br> Let's connect and achieve great results
+              together!
             </p>
-            <Link href="/projects">
-              <button className="bg-[#0e3548] ml-8 p-3 text-white rounded-md font-semibold hover:text-yellow-400">
-                Explore
-              </button>
-            </Link>
+            <div className="p-4">
+                <div>
+                    <p className="text-3xl font-semibold">EXPERIENCE</p>
+                </div>
+                <div className="p-3">
+                    <p>Aug'23 - Oct'23</p>
+                    <p>HMT Architects</p>
+                    <p>Web Developer Intern</p>
+                </div>
+                <div className="p-3">
+                    <p>Sep'23 - Present</p>
+                    <p>Alpha Code Labs</p>
+                    <p>Full stack Developer Intern</p>
+                </div>
+            </div>
           </div>
         </div>
+        <Image
+          src={myavatar1}
+          className="h-5/6 w-52 flex pt-3 items-center"
+          alt="parthiba"
+        />
       </div>
     </div>
   );
