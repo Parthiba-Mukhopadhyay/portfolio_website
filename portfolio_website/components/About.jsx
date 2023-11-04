@@ -7,7 +7,7 @@ import Link from "next/link";
 const About = () => {
   return (
     <div className="bg-black">
-      <div className="lg:m-22 md:pl-14 m-8 flex flex-row pb-16">
+      <div className="lg:m-22 md:pl-14 m-8 flex flex-row ">
         <div className="flex lg:basis-2/3 md:basis-2/3 ">
           <div>
             <p className="text-7xl p-4">About Me</p>
@@ -16,7 +16,7 @@ const About = () => {
                 I am
               </p>
               <Typed
-                className="text-white lg:text-3xl text-2xl font-bold pl-2 pt-3"
+                className=" lg:text-3xl text-2xl font-bold pl-2 pt-3 bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent"
                 strings={[
                   " a Programmer",
                   "a Designer",
@@ -61,7 +61,7 @@ const About = () => {
                     <p>Web Developer Intern</p>
                 </div>
                 <div className="p-3">
-                    <p >Sep'23 - Present</p>
+                    <p className="text-xl bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent">Sep'23 - Present</p>
                     <p>Alpha Code Labs</p>
                     <p>Full stack Developer Intern</p>
                 </div>
