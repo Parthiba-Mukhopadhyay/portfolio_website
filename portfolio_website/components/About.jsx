@@ -20,7 +20,7 @@ const About = () => {
         <div className="flex lg:basis-2/3 md:basis-2/3 ">
           <div>
             <p className="text-7xl p-4">About Me</p>
-            <div className="flex">
+            <div className="flex pb-2">
               <p className="lg:text-3xl text-2xl text-white font-bold pl-8 pt-3 ">
                 I am
               </p>
@@ -42,9 +42,14 @@ const About = () => {
               I'm a pre-final year B.Tech student majoring in Computer Science
               Engineering at VIT Chennai. I excel in UI design and full-stack
               development. My expertise lies in AI and ML, with a track record
-              of crafting effective ML models for various projects.
+              of crafting effective ML models for various projects. I always
+              look forward to building connections and working on collaborative
+              projects.
             </p>
-            <p className="px-8 pb-4 font-semibold text-lg bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent mr-4"> Let's connect and achieve great results together!</p>
+            <p className="px-8 pb-4 font-semibold text-lg bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent mr-4">
+              {" "}
+              Let's connect and achieve great results together!
+            </p>
             <div>
               <div className="pl-7 pb-3">
                 <ul className="flex gap-4">

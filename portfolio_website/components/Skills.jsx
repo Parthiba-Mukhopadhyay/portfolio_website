@@ -3,6 +3,7 @@ import React from "react";
 import Image from "next/image";
 import bootstrap from "../assets/icons/bootstrap.svg";
 import c from "../assets/icons/c.svg";
+import python from "../assets/icons/python.svg";
 import cpp from "../assets/icons/c++.svg";
 import css from "../assets/icons/css.svg";
 import expressjs from "../assets/icons/express.svg";
@@ -18,6 +19,9 @@ import nextjs from "../assets/icons/nextjs.svg";
 import nodejs from "../assets/icons/nodejs.svg";
 import reactjs from "../assets/icons/reactjs.svg";
 import tailwind from "../assets/icons/tailwind.svg";
+import netlify from "../assets/icons/netlify.svg";
+import vercel from "../assets/icons/vercel.svg";
+
 
 const Skills = () => {
   return (
@@ -30,90 +34,150 @@ const Skills = () => {
           </p>
         </div>
         <div>
-          <div className="pl-7 pb-3">
-            <ul className="flex gap-4">
+          <div className="pl-7 pb-3 flex flex-col">
+            <ul className="flex flex-row gap-10 p-8">
               <li>
                 <Image
                   src={html}
-                  className="h-10 w-10 hover:animate-bounce rounded-lg shadow-xl dark:shadow-gray-800"
+                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
                   alt="html"
                 />
               </li>
               <li>
                 <Image
                   src={css}
-                  className="h-10 w-10 hover:animate-bounce rounded-lg shadow-xl dark:shadow-gray-800"
+                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
                   alt="css"
                 />
               </li>
               <li>
                 <Image
                   src={javascript}
-                  className="h-10 w-10 hover:animate-bounce rounded-lg shadow-xl dark:shadow-gray-800"
+                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
                   alt="javascript"
                 />
               </li>
               <li>
                 <Image
                   src={bootstrap}
-                  className="h-10 w-10 hover:animate-bounce rounded-lg shadow-xl dark:shadow-gray-800"
+                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
                   alt="bootstrap"
                 />
               </li>
               <li>
                 <Image
                   src={tailwind}
-                  className="h-10 w-10 hover:animate-bounce rounded-lg shadow-xl dark:shadow-gray-800"
+                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
                   alt="tailwind"
                 />
               </li>
               <li>
                 <Image
                   src={nodejs}
-                  className="h-10 w-10 hover:animate-bounce rounded-lg shadow-xl dark:shadow-gray-800"
+                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
                   alt="nodejs"
                 />
               </li>
               <li>
                 <Image
                   src={expressjs}
-                  className="h-10 w-10 hover:animate-bounce rounded-lg shadow-xl dark:shadow-gray-800"
+                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
                   alt="expressjs"
                 />
               </li>
+              </ul>
+              <ul className="flex flex-row gap-10 p-8">
               <li>
                 <Image
                   src={mysql}
-                  className="h-10 w-10 hover:animate-bounce rounded-lg shadow-xl dark:shadow-gray-800"
+                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
                   alt="mysql"
                 />
               </li>
               <li>
                 <Image
                   src={mongodb}
-                  className="h-10 w-10 hover:animate-bounce rounded-lg shadow-xl dark:shadow-gray-800"
+                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
                   alt="mongodb"
                 />
               </li>
               <li>
                 <Image
                   src={reactjs}
-                  className="h-10 w-10 hover:animate-bounce rounded-lg shadow-xl dark:shadow-gray-800"
+                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
                   alt="reactjs"
                 />
               </li>
               <li>
                 <Image
                   src={nextjs}
-                  className="h-10 w-10 hover:animate-bounce rounded-lg shadow-xl dark:shadow-gray-800"
+                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
                   alt="nextjs"
                 />
               </li>
               <li>
                 <Image
-                  src={mongodb}
-                  className="h-10 w-10 hover:animate-bounce rounded-lg shadow-xl dark:shadow-gray-800"
-                  alt="mongodb"
+                  src={netlify}
+                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
+                  alt="netlify"
+                />
+              </li>
+              <li>
+                <Image
+                  src={vercel}
+                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
+                  alt="vercel"
+                />
+              </li>
+              <li>
+                <Image
+                  src={figma}
+                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
+                  alt="figma"
+                />
+              </li>
+              </ul>
+              <ul className="flex flex-row gap-10 py-8 pl-28 ">
+              <li>
+                <Image
+                  src={git}
+                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
+                  alt="git"
+                />
+              </li>
+              <li>
+                <Image
+                  src={linux}
+                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
+                  alt="linux"
+                />
+              </li>
+              <li>
+                <Image
+                  src={c}
+                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
+                  alt="c"
+                />
+              </li>              
+              <li>
+                <Image
+                  src={cpp}
+                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
+                  alt="cpp"
+                />
+              </li>
+              <li>
+                <Image
+                  src={java}
+                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
+                  alt="java"
+                />
+              </li>
+              <li>
+                <Image
+                  src={python}
+                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
+                  alt="python"
                 />
               </li>
             </ul>
