@@ -26,10 +26,10 @@ import vercel from "../assets/icons/vercel.svg";
 const Skills = () => {
   return (
     <div className="bg-black flex justify-center items-center h-50">
-      <div className="lg:m-22 md:pl-14 m-8 pb-16">
+      <div className="lg:m-22 md:pl-14 m-8 pb-8">
         <div className="text-center">
           <p className="text-7xl p-4">Skills</p>
-          <p className="text-2xl p-4">
+          <p className="text-2xl p-4 bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent font-semibold">
             Check out some technologies I worked with!
           </p>
         </div>
