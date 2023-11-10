@@ -3,7 +3,7 @@ import Image from "next/image";
 import friends from "../assets/projects/friends.png";
 import portfolio from "../assets/projects/portfolio.png";
 import textify from "../assets/projects/textify.png";
-import clickcare from "../assets/projects/clickcare.png";
+import clickcare from "../assets/projects/clickcare.webp";
 import gamezone from "../assets/projects/gamezone.jpg";
 import marketplace from "../assets/projects/marketplace.png";
 import andhadhun from "../assets/projects/andhadhun.png";

@@ -20,7 +20,7 @@ const About = () => {
         <div className="flex lg:basis-2/3 md:basis-2/3 ">
           <div>
             <p className="text-7xl p-4">About Me</p>
-            <div className="flex pb-2">
+            <div className="flex pb-6">
               <p className="lg:text-3xl text-2xl text-white font-bold pl-8 pt-3 ">
                 I am
               </p>
@@ -38,7 +38,7 @@ const About = () => {
                 loop
               />
             </div>
-            <p className="px-8 pb-4 text-white mr-4">
+            <p className="px-8 pb-8 text-white text-lg mr-4">
               I'm a pre-final year B.Tech student majoring in Computer Science
               Engineering at VIT Chennai. I excel in UI design and full-stack
               development. My expertise lies in AI and ML, with a track record
@@ -51,7 +51,7 @@ const About = () => {
               Let's connect and achieve great results together!
             </p>
             <div>
-              <div className="pl-7 pb-3">
+              <div className="pl-7 pb-8">
                 <ul className="flex gap-4">
                   <li>
                     <Image
