@@ -3,6 +3,7 @@ import {About} from "../components";
 import {Skills} from "../components";
 import {Projects} from "../components";
 import {Contact} from "../components";
+import {Footer} from "../components";
 export default function Home() {
   return (
     <>
@@ -11,6 +12,7 @@ export default function Home() {
     <Skills/>
     <Projects/>
     <Contact/>
+    <Footer/>
     </>
   )
 }

@@ -22,6 +22,9 @@ import tailwind from "../assets/icons/tailwind.svg";
 import netlify from "../assets/icons/netlify.svg";
 import vercel from "../assets/icons/vercel.svg";
 import r from "../assets/icons/r.svg";
+import firebase from "../assets/icons/firebase.svg";
+import vscode from "../assets/icons/vscode.svg";
+import matlab from "../assets/icons/matlab.svg";
 
 const Skills = () => {
   return (
@@ -85,8 +88,6 @@ const Skills = () => {
                   alt="expressjs"
                 />
               </li>
-              </ul>
-              <ul className="flex flex-row gap-10 p-8">
               <li>
                 <Image
                   src={mysql}
@@ -94,6 +95,8 @@ const Skills = () => {
                   alt="mysql"
                 />
               </li>
+              </ul>
+              <ul className="flex flex-row gap-10 p-8">
               <li>
                 <Image
                   src={mongodb}
@@ -131,13 +134,18 @@ const Skills = () => {
               </li>
               <li>
                 <Image
+                  src={firebase}
+                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
+                  alt="firebase"
+                />
+              </li>
+              <li>
+                <Image
                   src={figma}
                   className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
                   alt="figma"
                 />
               </li>
-              </ul>
-              <ul className="flex flex-row gap-10 p-8 ">
               <li>
                 <Image
                   src={git}
@@ -145,11 +153,27 @@ const Skills = () => {
                   alt="git"
                 />
               </li>
+              </ul>
+              <ul className="flex flex-row gap-10 p-8 ">
               <li>
                 <Image
                   src={linux}
                   className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
                   alt="linux"
+                />
+              </li>
+              <li>
+                <Image
+                  src={matlab}
+                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
+                  alt="matlab"
+                />
+              </li>
+              <li>
+                <Image
+                  src={vscode}
+                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
+                  alt="vscode"
                 />
               </li>
               <li>

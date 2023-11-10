@@ -16,7 +16,7 @@ import Link from "next/link";
 
 const ProjectCard = ({ pic, name, summary, tech, project, icon }) => {
   return (
-    <div className="m-8 border-2 p-8 border-white rounded-xl -md mx-auto shadow-lg dark:shadow-white w-96">
+    <div className="m-8 border-2 p-8 border-yellow-500 rounded-xl -md mx-auto shadow-lg dark:shadow-orange-400 w-96">
       <div className="mb-2 items-center flex flex-col">
         <Image
           src={pic}
@@ -56,7 +56,7 @@ const Projects = () => {
         <p className="text-7xl p-4">My projects</p>
       </div>
       <div>
-        <p className="text-2xl p-4 bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent font-semibold">
+        <p className="text-4xl pt-8 bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent font-semibold">
           Design and Development
         </p>
       </div>
@@ -114,11 +114,11 @@ const Projects = () => {
         />
       </div>
       <div className="text-center">
-        <p className="text-2xl p-4 bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent font-semibold">
+        <p className="text-4xl pt-8 bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent font-semibold">
           AI/ML and Computer Vision
         </p>
       </div>
-      <div className="grid grid-cols-3 gap-20">
+      <div className="grid grid-cols-3 gap-20 pb-20">
         <ProjectCard
           pic={andhadhun}
           name="Andhadhun"

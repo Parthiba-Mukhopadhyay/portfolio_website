@@ -5,8 +5,7 @@ export default function Contact() {
   return (
     <div className="flex flex-col mx-auto">
       <div className="text-center">
-          <p className="text-7xl p-4 ">Contact Me</p>
-          
+          <p className="text-7xl ">Contact Me</p>
         </div>
     <div className="flex">
        <Image
