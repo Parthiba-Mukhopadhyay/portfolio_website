@@ -21,7 +21,7 @@ import reactjs from "../assets/icons/reactjs.svg";
 import tailwind from "../assets/icons/tailwind.svg";
 import netlify from "../assets/icons/netlify.svg";
 import vercel from "../assets/icons/vercel.svg";
-
+import r from "../assets/icons/r.svg";
 
 const Skills = () => {
   return (
@@ -30,7 +30,7 @@ const Skills = () => {
         <div className="text-center">
           <p className="text-7xl p-4">Skills</p>
           <p className="text-2xl p-4 bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent font-semibold">
-            Check out some technologies I worked with!
+            Some technologies I worked with!
           </p>
         </div>
         <div>
@@ -137,7 +137,7 @@ const Skills = () => {
                 />
               </li>
               </ul>
-              <ul className="flex flex-row gap-10 py-8 pl-28 ">
+              <ul className="flex flex-row gap-10 p-8 ">
               <li>
                 <Image
                   src={git}
@@ -178,6 +178,13 @@ const Skills = () => {
                   src={python}
                   className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
                   alt="python"
+                />
+              </li>
+              <li>
+                <Image
+                  src={r}
+                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
+                  alt="r"
                 />
               </li>
             </ul>
