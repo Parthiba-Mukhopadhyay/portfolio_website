@@ -119,6 +119,17 @@ const About = () => {
                 </ul>
               </div>
             </div>
+            <div className="px-6 pb-6">
+              <button className="border-2 p-4 border-yellow-500 rounded-xl shadow-md dark:shadow-orange-400 w-88">
+                <a
+                  href="https://drive.google.com/file/d/1LBvyR0mjaXjfqDmGmr7Of_iPzSkB6_gq/view?usp=sharing"
+                  download
+                  className="text-lg bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent font-semibold"
+                >
+                  Check out my resume!
+                </a>
+              </button>
+            </div>
             <div className="p-4">
               <div>
                 <p className="text-3xl font-semibold">EXPERIENCE</p>
