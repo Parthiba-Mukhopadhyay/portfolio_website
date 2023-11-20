@@ -130,25 +130,6 @@ const About = () => {
                 </a>
               </button>
             </div>
-            <div className="p-4">
-              <div>
-                <p className="text-3xl font-semibold">EXPERIENCE</p>
-              </div>
-              <div className="p-3">
-                <p className="text-xl bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent font-semibold">
-                  Aug'23 - Oct'23
-                </p>
-                <p>HMT Architects</p>
-                <p>Web Developer Intern</p>
-              </div>
-              <div className="p-3">
-                <p className="text-xl bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent font-semibold">
-                  Sep'23 - Present
-                </p>
-                <p>Alpha Code Labs</p>
-                <p>Full stack Developer Intern</p>
-              </div>
-            </div>
           </div>
         </div>
         <Image
