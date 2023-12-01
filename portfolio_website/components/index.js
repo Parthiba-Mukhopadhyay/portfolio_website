@@ -1,18 +1,18 @@
 import NavBar from "./NavBar";
 import Hero from "./Hero";
 import About from "./About";
-import Experience from "./Experience";
+import Prevexperience from "./prevexperience";
 import Skills from "./Skills";
 import Contact from "./Contact";
-import Projects from "./Projects";
+import Seeproject from "./seeproject";
 import Footer from "./footer";
 export{
     NavBar,
     Hero,
     About,
-    Experience,
+    Prevexperience,
     Skills,
-    Projects,
+    Seeproject,
     Contact,
     Footer,
 }

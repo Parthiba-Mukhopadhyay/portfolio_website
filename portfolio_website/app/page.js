@@ -1,8 +1,8 @@
 import {Hero} from "../components";
 import {About} from "../components";
-import {Experience} from "../components";
+import {Prevexperience} from "../components";
 import {Skills} from "../components";
-import {Projects} from "../components";
+import {Seeproject} from "../components";
 import {Contact} from "../components";
 import {Footer} from "../components";
 export default function Home() {
@@ -10,9 +10,9 @@ export default function Home() {
     <>
     <Hero/>
     <About/>
-    <Experience/>
+    <Prevexperience/>
     <Skills/>
-    <Projects/>
+    <Seeproject/>
     <Contact/>
     <Footer/>
     </>

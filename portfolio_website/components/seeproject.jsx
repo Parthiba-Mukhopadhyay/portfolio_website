@@ -49,7 +49,7 @@ const ProjectCard = ({ pic, name, summary, tech, project, icon }) => {
   );
 };
 
-const Projects = () => {
+const Seeproject = () => {
   return (
     <div className="items-center flex flex-col">
       <div>
@@ -148,4 +148,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Seeproject;

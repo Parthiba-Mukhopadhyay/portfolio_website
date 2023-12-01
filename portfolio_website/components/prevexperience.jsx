@@ -22,7 +22,7 @@ const ExperienceCard = ({ pic, name, time, Role }) => {
   );
 };
 
-const Experience = () => {
+const Prevexperience = () => {
   return (
     <div>
       <div className="pd-8">
@@ -38,4 +38,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default Prevexperience;
