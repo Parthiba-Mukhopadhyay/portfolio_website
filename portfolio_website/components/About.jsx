@@ -119,7 +119,7 @@ const About = () => {
                 </ul>
               </div>
             </div>
-            <div className="px-6 pb-6">
+            <div className="px-6 pb-6 cursor-pointer">
               <button className="border-2 p-4 border-yellow-500 rounded-xl shadow-md dark:shadow-orange-400 w-88">
                 <a
                   href="https://drive.google.com/file/d/1LBvyR0mjaXjfqDmGmr7Of_iPzSkB6_gq/view?usp=sharing"

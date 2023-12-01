@@ -60,6 +60,12 @@ const Seeproject = () => {
           Design and Development
         </p>
       </div>
+
+        <div className="flex flex-row items-center justify-center">
+            
+        </div>
+
+
       <div className="grid grid-cols-3 gap-x-20 gap-y-4">
         <ProjectCard
           pic={portfolio}
