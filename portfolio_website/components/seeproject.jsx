@@ -11,7 +11,7 @@ import mediaplayer from "../assets/projects/mediaplayer.png";
 import nlp from "../assets/projects/nlp.png";
 import github from "../assets/icons/github.svg";
 import figma from "../assets/icons/figma.svg";
-
+import gif from "../assets/GIF/tenor.gif"
 import Link from "next/link";
 
 const ProjectCard = ({ pic, name, summary, tech, project, icon }) => {
@@ -56,14 +56,34 @@ const Seeproject = () => {
         <p className="text-7xl p-4">My projects</p>
       </div>
       <div>
+        <p className="text-4xl py-8 bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent font-semibold">
+          Check my projects out!
+        </p>
+      </div>
+
+      <div className="flex flex-row gap-20 items-center justify-center">
+        <div className="flex flex-row cursor-pointer hover:scale-110 ease-in-out duration-300 items-center rounded-xl border-2 border-yellow-500 shadow-md dark:shadow-orange-400 h-48 w-40">
+          <p>Design</p>
+        </div>
+        <div className="flex flex-row cursor-pointer hover:scale-110 ease-in-out duration-300 items-center rounded-xl border-2 border-yellow-500 shadow-md dark:shadow-orange-400 h-48 w-40">
+          <p>Development</p>
+        </div>
+        <div className="flex flex-row cursor-pointer hover:scale-110 ease-in-out duration-300 items-center rounded-xl border-2 border-yellow-500 shadow-md dark:shadow-orange-400 h-48 w-40">
+          <p>AI/ML</p>
+        </div>
+        <Image
+            src={gif}
+            className="h-40 mr-28 w-40 rounded-lg"
+            alt="github"
+          />
+      </div>
+
+
+      <div>
         <p className="text-4xl pt-8 bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent font-semibold">
           Design and Development
         </p>
       </div>
-
-        <div className="flex flex-row items-center justify-center">
-            
-        </div>
 
 
       <div className="grid grid-cols-3 gap-x-20 gap-y-4">
