@@ -120,9 +120,9 @@ const About = () => {
               </div>
             </div>
             <div className="px-6 pb-6 cursor-pointer">
-              <button className="border-2 p-4 border-yellow-500 rounded-xl shadow-md dark:shadow-orange-400 w-88">
+              <button className="border-2 p-4 border-yellow-500 rounded-xl shadow-md dark:shadow-orange-400 w-88 hover:bg-purple-900">
                 <a
-                  href="https://drive.google.com/file/d/1LBvyR0mjaXjfqDmGmr7Of_iPzSkB6_gq/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1eMeC1ctipR5v6Gc-z7i0a-OYU013Zzj1/view?usp=sharing"
                   download
                   className="text-lg bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent font-semibold"
                 >

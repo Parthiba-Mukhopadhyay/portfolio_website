@@ -25,6 +25,9 @@ import r from "../assets/icons/r.svg";
 import firebase from "../assets/icons/firebase.svg";
 import vscode from "../assets/icons/vscode.svg";
 import matlab from "../assets/icons/matlab.svg";
+import opencv from "../assets/icons/opencv.svg";
+import tensorflow from "../assets/icons/tensorflow.svg";
+import scikitlearn from "../assets/icons/scikitlearn.svg";
 
 const Skills = () => {
   return (
@@ -95,8 +98,6 @@ const Skills = () => {
                   alt="mysql"
                 />
               </li>
-              </ul>
-              <ul className="flex flex-row gap-10 p-8">
               <li>
                 <Image
                   src={mongodb}
@@ -104,6 +105,8 @@ const Skills = () => {
                   alt="mongodb"
                 />
               </li>
+              </ul>
+              <ul className="flex flex-row gap-10 p-8">
               <li>
                 <Image
                   src={reactjs}
@@ -153,8 +156,6 @@ const Skills = () => {
                   alt="git"
                 />
               </li>
-              </ul>
-              <ul className="flex flex-row gap-10 p-8 ">
               <li>
                 <Image
                   src={linux}
@@ -169,6 +170,8 @@ const Skills = () => {
                   alt="matlab"
                 />
               </li>
+              </ul>
+              <ul className="flex flex-row gap-10 p-8 ">
               <li>
                 <Image
                   src={vscode}
@@ -209,6 +212,27 @@ const Skills = () => {
                   src={r}
                   className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
                   alt="r"
+                />
+              </li>
+              <li>
+                <Image
+                  src={opencv}
+                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
+                  alt="opencv"
+                />
+              </li>
+              <li>
+                <Image
+                  src={scikitlearn}
+                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
+                  alt="scikitlearn"
+                />
+              </li>
+              <li>
+                <Image
+                  src={tensorflow}
+                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
+                  alt="Tensorflow"
                 />
               </li>
             </ul>
