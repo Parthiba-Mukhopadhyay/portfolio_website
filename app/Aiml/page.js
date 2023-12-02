@@ -57,7 +57,7 @@ export default function Aiml() {
           name="Andhadhun"
           summary="A Computer Vision model to detect obstacles and incoming cars, convert the prediction to audio and help the blind people walk their way through!"
           tech="yoloV5, pyautogui, python"
-          project="https://friendssolchng.firebaseapp.com/"
+          project="https://github.com/Parthiba-Mukhopadhyay/VinHack-23/tree/Parthiba-update"
           icon={github}
         />
         <ProjectCard
@@ -65,7 +65,7 @@ export default function Aiml() {
           name="Media Player"
           summary="A computer vision model to detect hand gestures of the user and perform necessary media player functions!"
           tech="openCV, mediapipe, pyautogui"
-          project="https://friendssolchng.firebaseapp.com/"
+          project="https://github.com/Parthiba-Mukhopadhyay/hand_gesture_media_player"
           icon={github}
         />
       </div>
@@ -75,7 +75,7 @@ export default function Aiml() {
           name="Spam Detection and Sentiment Analysis"
           summary="Detection of spam messages and twitter tweets sentiment analysis using natural language processing"
           tech="NLP, Python, Colab"
-          project="https://friendssolchng.firebaseapp.com/"
+          project="https://github.com/Parthiba-Mukhopadhyay/ML_NLP"
           icon={github}
         />
       </div>

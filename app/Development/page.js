@@ -4,9 +4,10 @@ import friends from "../../assets/projects/friends.png";
 import portfolio from "../../assets/projects/portfolio.png";
 import textify from "../../assets/projects/textify.png";
 import gamezone from "../../assets/projects/gamezone.jpg";
+import hmt from "../../assets/projects/hmt.png";
 import github from "../../assets/icons/github.svg";
 
-const ProjectCard = ({ pic, name, summary, tech, project, icon }) => {
+const ProjectCard = ({ pic, name, summary, tech, project, icon, website }) => {
   return (
     <div className="m-8 border-2 border-yellow-500 rounded-xl shadow-lg dark:shadow-orange-400 max-w-3xl hover:scale-110 ease-in-out duration-300">
       <div className="mb-2 items-center flex flex-row">
@@ -24,10 +25,10 @@ const ProjectCard = ({ pic, name, summary, tech, project, icon }) => {
             Tech stacks used
           </p>
           <p className="text-blue-100">{tech}</p>
-          <div className="flex flex-row px-5 pt-5">
-            <Image
+          <div className="flex flex-row gap-8 px-5 pt-5">
+          <Image
               src={icon}
-              className="h-10 mr-28 w-10 rounded-lg"
+              className="h-10 w-10 mr-2 rounded-lg"
               alt="github"
             />
             <a
@@ -35,6 +36,12 @@ const ProjectCard = ({ pic, name, summary, tech, project, icon }) => {
               href={project}
             >
               View project!
+            </a>
+            <a
+              className="bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent font-semibold hover:text-purple-700 text-lg "
+              href={website}
+            >
+              View Website!
             </a>
           </div>
         </div>
@@ -57,7 +64,8 @@ export default function Development() {
           name="Memories"
           summary="A Social Media website with user authentication and authorization, where users can post, check out comments, edit profile as well as add new friends! "
           tech="MongoDB, ExpressJs, ReactJs, NodeJs, Redux Toolkit"
-          project="https://friendssolchng.firebaseapp.com/"
+          project="https://github.com/Parthiba-Mukhopadhyay/Memories"
+          website="https://github.com/Parthiba-Mukhopadhyay/Memories"
           icon={github}
         />
         <ProjectCard
@@ -65,7 +73,8 @@ export default function Development() {
           name="F.R.I.E.N.D.S"
           summary="An one stop solution for all your animal needs where you can rescue animals, adopt them, find trainers, maintain a community as well as check for compatibily of the animal! "
           tech="ReactJs, Bootstrap, FireBase"
-          project="https://friendssolchng.firebaseapp.com/"
+          project="https://github.com/Parthiba-Mukhopadhyay/F.R.I.E.N.D.S"
+          website="https://friendssolchng.firebaseapp.com/"
           icon={github}
         />
         <ProjectCard
@@ -74,7 +83,8 @@ export default function Development() {
           summary="An website to perform multiple operations on user entered strings
           in no time!"
           tech="ReactJs, Vanilla CSS, Netlify"
-          project="https://mytextify.netlify.app/"
+          project="https://github.com/Parthiba-Mukhopadhyay/Textify"
+          website="https://mytextify.netlify.app/"
           icon={github}
         />
         <ProjectCard
@@ -82,17 +92,18 @@ export default function Development() {
           name="Gamezone"
           summary="A website containing multiple enjoyable mini games each developed from scratch!"
           tech="HTML, CSS, JavaScript"
-          project="https://friendssolchng.firebaseapp.com/"
+          project="https://github.com/Parthiba-Mukhopadhyay/dice_game"
+          website="https://mydicegame23.netlify.app/"
           icon={github}
         />
       </div>
       <div className="pb-8">
         <ProjectCard
-          pic={portfolio}
+          pic={hmt}
           name="HMT_Architects"
           summary="Had the opportunity to build the website for the company! Cant share the code due to NDA but do give it a look!"
           tech="NextJs, Tailwind CSS"
-          project="https://friendssolchng.firebaseapp.com/"
+          website="https://hmtarchitects.com/"
           icon={github}
         />
       </div>

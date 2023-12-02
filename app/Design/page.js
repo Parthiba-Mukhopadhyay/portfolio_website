@@ -57,7 +57,7 @@ export default function Design() {
             summary="A healthcare app designed to monitor your vitals through Iot
           wearables and cater to medical needs based on parameters change!"
             tech="Ui prototype, Figma"
-            project="https://friendssolchng.firebaseapp.com/"
+            project="https://www.figma.com/file/KV3OHwj90DPWI0s5olLP0f/SOLUTION-LAYOUT-WIREFRAME-(Copy)?type=design&node-id=0%3A1&mode=design&t=AUXXXAoQTjET5p1y-1"
             icon={figma}
           />
           <ProjectCard
@@ -66,7 +66,7 @@ export default function Design() {
             summary="Built as a part of MIC, this app aims to unite potential customers
           and sellers at a local scale!"
             tech="Ui prototype, Figma"
-            project="https://friendssolchng.firebaseapp.com/"
+            project="https://www.figma.com/file/oGyctsYTBXEonBAVji0zBN/Wireframes?type=design&mode=design&t=AUXXXAoQTjET5p1y-0"
             icon={figma}
           />
         </div>
