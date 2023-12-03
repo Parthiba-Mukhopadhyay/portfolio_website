@@ -54,67 +54,76 @@ const About = () => {
               <div className="pl-7 pb-8">
                 <ul className="flex gap-4">
                   <li>
-                    <Image
-                      src={instagram}
-                      className="h-10 w-10 hover:animate-bounce rounded-lg shadow-xl dark:shadow-gray-800"
-                      alt="instagram"
-                    />
+                    <Link href="https://www.instagram.com/_.parthiba._/">
+                      <Image
+                        src={instagram}
+                        className="h-10 w-10 hover:animate-bounce rounded-lg shadow-xl dark:shadow-gray-800"
+                        alt="instagram"
+                      />
+                    </Link>
                   </li>
                   <li>
-                    <Image
-                      src={linkedin}
-                      className="h-10 w-10 hover:animate-bounce rounded-lg shadow-xl dark:shadow-gray-800"
-                      alt="linkedin"
-                    />
+                    <Link href="https://www.linkedin.com/in/parthiba-mukhopadhyay-19651b217/">
+                      <Image
+                        src={linkedin}
+                        className="h-10 w-10 hover:animate-bounce rounded-lg shadow-xl dark:shadow-gray-800"
+                        alt="linkedin"
+                      />
+                    </Link>
                   </li>
                   <li>
-                    <Image
-                      src={X}
-                      className="h-10 w-10 hover:animate-bounce rounded-lg shadow-xl dark:shadow-gray-800"
-                      alt="X"
-                    />
+                    <Link href="https://twitter.com/PARTHIBAMUKHOP1">
+                      <Image
+                        src={X}
+                        className="h-10 w-10 hover:animate-bounce rounded-lg shadow-xl dark:shadow-gray-800"
+                        alt="X"
+                      />
+                    </Link>
                   </li>
                   <li>
-                    <Image
-                      src={github}
-                      className="h-10 w-10 hover:animate-bounce rounded-lg shadow-xl dark:shadow-gray-800"
-                      alt="github"
-                    />
+                    <Link href="https://github.com/Parthiba-Mukhopadhyay">
+                      <Image
+                        src={github}
+                        className="h-10 w-10 hover:animate-bounce rounded-lg shadow-xl dark:shadow-gray-800"
+                        alt="github"
+                      />
+                    </Link>
                   </li>
                   <li>
-                    <Image
-                      src={facebook}
-                      className="h-10 w-10 hover:animate-bounce rounded-lg shadow-xl dark:shadow-gray-800"
-                      alt="facebook"
-                    />
+                    <Link href="https://medium.com/@parthiba.mukhopadhyay2021">
+                      <Image
+                        src={medium}
+                        className="h-10 w-10 hover:animate-bounce rounded-lg shadow-xl dark:shadow-gray-800"
+                        alt="medium"
+                      />
+                    </Link>
                   </li>
                   <li>
-                    <Image
-                      src={medium}
-                      className="h-10 w-10 hover:animate-bounce rounded-lg shadow-xl dark:shadow-gray-800"
-                      alt="medium"
-                    />
+                    <Link href="https://stackoverflow.com/users/21474290/parthiba-mukhopadhyay">
+                      <Image
+                        src={stackoverflow}
+                        className="h-10 w-10 hover:animate-bounce rounded-lg shadow-xl dark:shadow-gray-800"
+                        alt="stackoverflow"
+                      />
+                    </Link>
                   </li>
                   <li>
-                    <Image
-                      src={stackoverflow}
-                      className="h-10 w-10 hover:animate-bounce rounded-lg shadow-xl dark:shadow-gray-800"
-                      alt="stackoverflow"
-                    />
+                    <Link href="https://leetcode.com/PARADOX_2002/">
+                      <Image
+                        src={leetcode}
+                        className="h-10 w-10 hover:animate-bounce rounded-lg shadow-xl dark:shadow-gray-800"
+                        alt="leetcode"
+                      />
+                    </Link>
                   </li>
                   <li>
-                    <Image
-                      src={leetcode}
-                      className="h-10 w-10 hover:animate-bounce rounded-lg shadow-xl dark:shadow-gray-800"
-                      alt="leetcode"
-                    />
-                  </li>
-                  <li>
-                    <Image
-                      src={hackerrank}
-                      className="h-10 w-10 hover:animate-bounce rounded-lg shadow-xl dark:shadow-gray-800"
-                      alt="hackerrank"
-                    />
+                    <Link href="https://www.hackerrank.com/profile/meparthiba">
+                      <Image
+                        src={hackerrank}
+                        className="h-10 w-10 hover:animate-bounce rounded-lg shadow-xl dark:shadow-gray-800"
+                        alt="hackerrank"
+                      />
+                    </Link>
                   </li>
                 </ul>
               </div>

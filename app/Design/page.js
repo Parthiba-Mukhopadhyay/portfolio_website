@@ -46,7 +46,7 @@ export default function Design() {
   return (
       <div className="items-center flex flex-col">
         <div className="pt-8">
-          <p className="text-7xl pt-8 bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent font-semibold">
+          <p className="text-6xl pt-8 bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent font-semibold">
             My Designs
           </p>
         </div>
