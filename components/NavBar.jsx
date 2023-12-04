@@ -32,13 +32,13 @@ function NavBar() {
           <Link href="/">
             <button className="hover:text-orange-300 hover:text-2xl">Home</button>
           </Link>
-          <Link href="/About">
+          <Link href="">
             <button className="hover:text-orange-300 hover:text-2xl">About Me</button>
           </Link>
-          <Link href="/seeproject">
+          <Link href="">
             <button className="hover:text-orange-300 hover:text-2xl">My Projects</button>
           </Link>
-          <Link href="/contact">
+          <Link href="">
             <button className="hover:text-orange-300 hover:text-2xl">Contact Me</button>
           </Link>
         </div>
