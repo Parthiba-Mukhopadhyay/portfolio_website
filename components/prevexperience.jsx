@@ -11,7 +11,7 @@ const ExperienceCard = ({ pic, name, time, role, onCardClick }) => {
   return (
     <div className="p-4 w-full md:w-80">
       <div
-        className="flex flex-row cursor-pointer hover:scale-110 ease-in-out duration-300 items-center rounded-xl border-2 border-yellow-500 shadow-md dark:shadow-orange-400 md:h-32"
+        className="flex flex-row cursor-pointer hover:scale-110 ease-in-out duration-300 items-center rounded-xl border-yellow-500 shadow-md dark:shadow-orange-400 md:h-32"
         onClick={onCardClick}
       >
         <Image src={pic} className="pl-2 rounded-md" width={80} height={80} />
@@ -30,13 +30,13 @@ const ExperienceCard = ({ pic, name, time, role, onCardClick }) => {
 const Modal = ({ closeModal, pic, name, time, role, desc, tech }) => {
   return (
     <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-gray-800 bg-opacity-50">
-      <div className="bg-gradient-to-br from-yellow-300 to-orange-500 p-8 rounded-md flex items-center justify-center">
+      <div className=" bg-cyan-100 p-8 rounded-md flex items-center justify-center">
         <div className="flex flex-col items-center">
           <Image src={pic} className="rounded-md pb-3" width={200} height={200} />
           <div className="pl-4 text-center">
             <p className="text-3xl text-black font-extrabold">{name}</p>
             <p className="text-2xl text-violet-900 font-semibold">{role}</p>
-            <p className="text-xl text-white">{time}</p>
+            <p className="text-xl font-medium text-black">{time}</p>
             <p className="text-lg text-black" style={{ whiteSpace: "pre-line" }}>
               {desc}
             </p>

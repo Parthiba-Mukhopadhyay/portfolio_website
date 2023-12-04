@@ -28,9 +28,9 @@ function NavBar(props) {
           </Link>
         </div>
         <div className="grid text-white grid-cols-4 gap-4 text-2xl">
-            <button className="hover:text-orange-300 hover:text-3xl">Home</button>
-            <button className="hover:text-orange-300 hover:text-3xl">About Me</button>
-            <button className="hover:text-orange-300 hover:text-3xl">My Projects</button>
+            <Link href="/"><button className="hover:text-orange-300 hover:text-3xl">Home</button></Link>
+            <Link href="/About.jsx"><button className="hover:text-orange-300 hover:text-3xl">About Me</button></Link>
+            <Link href="/seeproject.jsx"><button className="hover:text-orange-300 hover:text-3xl">My Projects</button></Link>
             <button className="hover:text-orange-300 hover:text-3xl">Contact Me</button>
         </div>
       </div>

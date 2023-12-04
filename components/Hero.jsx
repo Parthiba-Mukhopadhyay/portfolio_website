@@ -1,35 +1,52 @@
+// components/Hero.js
+
 "use client";
 import React from "react";
 import Image from "next/image";
 import mypic from "../assets/mypic.jpg";
+import mypic1 from "../assets/mypic1.jpg";
+
 import "./styles.css";
 
 const Hero = () => {
   return (
-    <div className="bg-black">
-      <div className="bg-gradient-to-br from-emerald-300 to-cyan-400 to-sky-700 m-20 rounded-3xl flex justify-center items-center" style={{ width: '90%', height: '60%' }}>
-        <div className="lg:m-22 md:pl-14 m-8 flex flex-row">
-          <div className="flex lg:basis-2/3 md:basis-2/3">
-            <div className="py-20 mr-8 text-animation">
-              <p className="px-10 lg:text-4xl bg-gradient-to-r from-violet-900 to-sky-800 bg-clip-text text-transparent text-3xl text-center font-bold pb-10 pt-10">
-                Hello, I am Parthiba Mukhopadhyay
-              </p>
-              <p className="px-4 lg:text-7xl drop-shadow-lg text-black text-6xl text-center font-bold pl-3 pb-10 ">
-                Wondering Who I am?
-              </p>
-              <p className="px-20 lg:text-5xl bg-gradient-to-r from-pink-600 to-violet-900 bg-clip-text text-transparent text-black text-4xl text-center font-bold pb-6 ">
-                Welcome to my story!
-              </p>
-            </div>
-          </div>
-          <div className="hidden md:flex lg:basis-1/3 md:basis-1/3 md:pt-20 lg:items-center pr-20 lg:p-10 image-animation ">
-            <Image
-              src={mypic}
-              className="h-96 w-64 rounded-lg shadow-xl dark:shadow-gray-800"
-              alt="parthiba"
-            />
-          </div>
+    <div className="relative bg-black text-white py-16 overflow-hidden">
+      <div className="absolute inset-0">
+        <Image
+          src={mypic1} 
+          alt="Profile Picture"
+          className="w-full h-full pt-4 object-cover filter brightness-50"
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black"></div>
+      </div>
+      <div className="container mx-auto relative z-10 flex flex-col items-center mt-8"> 
+        <div className="flex items-center mb-8"> 
+          <div className="w-2 h-2 bg-gradient-to-br from-yellow-300 to-orange-500 rounded-full mr-4 animate-bounce"></div> 
+          <Image
+            src={mypic1} 
+            alt="Profile Picture"
+            className="w-48 h-48 rounded-full ring-4 ring-gray-700 shadow-lg"
+          />
+          <div className="w-2 h-2 bg-gradient-to-br from-yellow-300 to-orange-500 rounded-full ml-4 animate-bounce"></div> 
         </div>
+        <h1 className="text-4xl font-extrabold mb-6 text-center leading-tight"> 
+          Hey there! I'm{" "}
+          <span className="bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent font-semibold">
+            Parthiba Mukhopadhyay
+          </span>
+          ,<br /> your digital wizard crafting wonders in the dark.
+        </h1>
+        <p className="text-lg mb-8 text-center">
+          Obsessed with pixels, lines of code, and turning dreams into immersive
+          digital experiences. By day, I code. By night, I dream in RGB.
+        </p>
+        <p className="text-gray-400 max-w-md text-center mb-8"> 
+          Let's bring new ideas to life in the cosmic playground of the web.
+          🌌✨
+        </p>
+        <button className="bg-gradient-to-br from-yellow-300 to-orange-500 hover:scale-110 ease-in-out duration-300 text-white py-2 px-4 rounded-full mt-6 hover:bg-pink-600 transition duration-300 shadow-md">
+          Join me now!
+        </button>
       </div>
     </div>
   );

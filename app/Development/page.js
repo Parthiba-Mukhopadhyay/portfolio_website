@@ -1,15 +1,15 @@
 "use client";
 import Image from "next/image";
 import friends from "../../assets/projects/friends.png";
-import portfolio from "../../assets/projects/portfolio.png";
 import textify from "../../assets/projects/textify.png";
 import gamezone from "../../assets/projects/gamezone.jpg";
 import hmt from "../../assets/projects/hmt.png";
+import memories from "../../assets/projects/memories.jpeg";
 import github from "../../assets/icons/github.svg";
 
 const ProjectCard = ({ pic, name, summary, tech, project, icon, website }) => {
   return (
-    <div className="m-8 border-2 border-yellow-500 rounded-xl shadow-lg dark:shadow-orange-400 max-w-3xl hover:scale-110 ease-in-out duration-300">
+    <div className="m-8 border-yellow-500 rounded-xl shadow-lg dark:shadow-orange-400 max-w-3xl hover:scale-110 ease-in-out duration-300">
       <div className="mb-2 items-center flex flex-row">
         <Image
           src={pic}
@@ -60,7 +60,7 @@ export default function Development() {
       </div>
       <div className="grid grid-cols-2 mx-10 gap-y-4 pt-10 pb-4">
         <ProjectCard
-          pic={portfolio}
+          pic={memories}
           name="Memories"
           summary="A Social Media website with user authentication and authorization, where users can post, check out comments, edit profile as well as add new friends! "
           tech="MongoDB, ExpressJs, ReactJs, NodeJs, Redux Toolkit"

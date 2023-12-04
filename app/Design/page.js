@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const ProjectCard = ({ pic, name, summary, tech, project, icon }) => {
   return (
-    <div className="m-8 border-2 border-yellow-500 rounded-xl shadow-lg dark:shadow-orange-400 max-w-3xl hover:scale-110 ease-in-out duration-300">
+    <div className="m-8 border-yellow-500 rounded-xl shadow-lg dark:shadow-orange-400 max-w-3xl hover:scale-110 ease-in-out duration-300">
       <div className="mb-2 items-center flex flex-row">
         <Image
           src={pic}
