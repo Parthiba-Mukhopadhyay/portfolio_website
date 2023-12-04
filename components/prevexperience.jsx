@@ -29,22 +29,28 @@ const ExperienceCard = ({ pic, name, time, role, onCardClick }) => {
 
 const Modal = ({ closeModal, pic, name, time, role, desc, tech }) => {
   return (
-    <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-gray-800 bg-opacity-50">
-      <div className=" bg-cyan-100 p-8 rounded-md flex items-center justify-center">
+    <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-gray-800 bg-opacity-50 z-50">
+      <div className="bg-gradient-to-br from-black via-gray-800 to-orange-500 p-8 rounded-md flex items-center justify-center border-4 border-yellow-500 shadow-md">
         <div className="flex flex-col items-center">
-          <Image src={pic} className="rounded-md pb-3" width={200} height={200} />
+          <Image
+            src={pic}
+            className="rounded-md shadow-md pb-3"
+            width={200}
+            height={200}
+            priority
+          />
           <div className="pl-4 text-center">
-            <p className="text-3xl text-black font-extrabold">{name}</p>
-            <p className="text-2xl text-violet-900 font-semibold">{role}</p>
-            <p className="text-xl font-medium text-black">{time}</p>
-            <p className="text-lg text-black" style={{ whiteSpace: "pre-line" }}>
+            <p className="text-3xl text-white font-extrabold">{name}</p>
+            <p className="text-2xl text-yellow-300 font-semibold">{role}</p>
+            <p className="text-xl font-medium text-white">{time}</p>
+            <p className="text-lg text-white" style={{ whiteSpace: "pre-line" }}>
               {desc}
             </p>
-            <p className="pt-3 text-2xl font-semibold text-black">Technology used:</p>
-            <p className="text-lg text-violet-900">{tech}</p>
+            <p className="pt-3 text-2xl font-semibold text-white">Technology used:</p>
+            <p className="text-lg text-yellow-300">{tech}</p>
           </div>
           <button
-            className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-md cursor-pointer"
+            className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-md cursor-pointer hover:bg-blue-600"
             onClick={closeModal}
           >
             Close
@@ -54,6 +60,7 @@ const Modal = ({ closeModal, pic, name, time, role, desc, tech }) => {
     </div>
   );
 };
+
 
 
 const Prevexperience = () => {

@@ -1,10 +1,11 @@
-"use client";
+// components/NavBar.jsx
 import Image from "next/image";
-import logo from "../assets/Logo.png";
 import Link from "next/link";
-function NavBar(props) {
+import logo from "../assets/Logo.png";
+
+function NavBar() {
   return (
-    <div className="navbar pb-12">
+    <div className="navbar">
       <link
         rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
@@ -21,17 +22,25 @@ function NavBar(props) {
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
       />
 
-      <div className="grid grid-cols-2 justify-evenly px-14 py-2 w-full h-5 items-center sticky top-0 z-40">
+      <div className="flex shadow-sm shadow-white justify-evenly px-14  w-full items-center sticky top-0 z-40">
         <div>
           <Link href="/">
-            <Image src={logo} className="h-28 w-28" alt="Parthiba logo" />
+            <Image src={logo} className="h-28 w-28 cursor-pointer" alt="Parthiba logo" />
           </Link>
         </div>
-        <div className="grid text-white grid-cols-4 gap-4 text-2xl">
-            <Link href="/"><button className="hover:text-orange-300 hover:text-3xl">Home</button></Link>
-            <Link href="/About.jsx"><button className="hover:text-orange-300 hover:text-3xl">About Me</button></Link>
-            <Link href="/seeproject.jsx"><button className="hover:text-orange-300 hover:text-3xl">My Projects</button></Link>
-            <button className="hover:text-orange-300 hover:text-3xl">Contact Me</button>
+        <div className="flex flex-row text-white  gap-10 text-xl">
+          <Link href="/">
+            <button className="hover:text-orange-300 hover:text-2xl">Home</button>
+          </Link>
+          <Link href="/About">
+            <button className="hover:text-orange-300 hover:text-2xl">About Me</button>
+          </Link>
+          <Link href="/seeproject">
+            <button className="hover:text-orange-300 hover:text-2xl">My Projects</button>
+          </Link>
+          <Link href="/contact">
+            <button className="hover:text-orange-300 hover:text-2xl">Contact Me</button>
+          </Link>
         </div>
       </div>
     </div>

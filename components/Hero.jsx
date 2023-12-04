@@ -3,7 +3,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import mypic from "../assets/mypic.jpg";
+import mypic2 from "../assets/mypic2.jpg";
 import mypic1 from "../assets/mypic1.jpg";
 
 import "./styles.css";
@@ -15,7 +15,7 @@ const Hero = () => {
         <Image
           src={mypic1} 
           alt="Profile Picture"
-          className="w-full h-full pt-4 object-cover filter brightness-50"
+          className="w-full h-full pt-1 object-cover filter brightness-50"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black"></div>
       </div>
@@ -40,7 +40,7 @@ const Hero = () => {
           Obsessed with pixels, lines of code, and turning dreams into immersive
           digital experiences. By day, I code. By night, I dream in RGB.
         </p>
-        <p className="text-gray-400 max-w-md text-center mb-8"> 
+        <p className="text-gray-400 max-w-md text-center mb-5"> 
           Let's bring new ideas to life in the cosmic playground of the web.
           🌌✨
         </p>

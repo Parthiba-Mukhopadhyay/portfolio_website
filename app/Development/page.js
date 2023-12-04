@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import friends from "../../assets/projects/friends.png";
+import portfolio from "../../assets/projects/portfolio.png";
 import textify from "../../assets/projects/textify.png";
 import gamezone from "../../assets/projects/gamezone.jpg";
 import hmt from "../../assets/projects/hmt.png";
@@ -17,7 +18,7 @@ const ProjectCard = ({ pic, name, summary, tech, project, icon, website }) => {
           alt={name}
         />
         <div className="flex flex-col p-8">
-          <p className="px-6 pt-6 pb-2 text-2xl font-semibold bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent hover:size-3xl">
+          <p className="pt-6 pb-2 text-2xl font-semibold bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent hover:size-3xl">
             {name}
           </p>
           <p>{summary}</p>
@@ -28,17 +29,17 @@ const ProjectCard = ({ pic, name, summary, tech, project, icon, website }) => {
           <div className="flex flex-row gap-8 px-5 pt-5">
           <Image
               src={icon}
-              className="h-10 w-10 mr-2 rounded-lg"
+              className=" h-4 w-4 rounded-lg"
               alt="github"
             />
             <a
-              className="bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent font-semibold hover:text-purple-700 text-lg "
+              className="bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent font-semibold hover:text-purple-700 "
               href={project}
             >
               View project!
             </a>
             <a
-              className="bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent font-semibold hover:text-purple-700 text-lg "
+              className="bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent font-semibold hover:text-purple-700 "
               href={website}
             >
               View Website!
