@@ -10,15 +10,7 @@ import "./styles.css";
 
 const Hero = () => {
   return (
-    <div className="relative bg-black text-white py-16 overflow-hidden">
-      <div className="absolute inset-0">
-        <Image
-          src={mypic1} 
-          alt="Profile Picture"
-          className="w-full h-full pt-1 object-cover filter brightness-50"
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black"></div>
-      </div>
+    <div className="relative bg-black text-white py-8 overflow-hidden">
       <div className="container mx-auto relative z-10 flex flex-col items-center mt-8"> 
         <div className="flex items-center mb-8"> 
           <div className="w-2 h-2 bg-gradient-to-br from-yellow-300 to-orange-500 rounded-full mr-4 animate-bounce"></div> 
@@ -45,7 +37,7 @@ const Hero = () => {
           🌌✨
         </p>
         <button className="bg-gradient-to-br from-yellow-300 to-orange-500 hover:scale-110 ease-in-out duration-300 text-white py-2 px-4 rounded-full mt-6 hover:bg-pink-600 transition duration-300 shadow-md">
-          Join me now!
+          Lets Connect!
         </button>
       </div>
     </div>

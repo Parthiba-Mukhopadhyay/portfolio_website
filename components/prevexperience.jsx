@@ -93,7 +93,7 @@ const Prevexperience = () => {
           My previous experiences!
         </p>
       </div>
-      <div className="flex flex-row pb-8">
+      <div className="sm:flex sm:flex-row gridgrid-cols-2 pb-8">
         {experiences.map((experience, index) => (
           <ExperienceCard
             key={index}

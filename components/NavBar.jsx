@@ -1,48 +1,60 @@
 // components/NavBar.jsx
-import Image from "next/image";
 import Link from "next/link";
+import Image from "next/image";
 import logo from "../assets/Logo.png";
 
 function NavBar() {
   return (
-    <div className="navbar">
-      <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
-      />
-      <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-        crossOrigin="anonymous"
-        referrerPolicy="no-referrer"
-      />
-      <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
-      />
-
-      <div className="flex shadow-sm shadow-white justify-evenly px-14  w-full items-center sticky top-0 z-40">
-        <div>
-          <Link href="/">
-            <Image src={logo} className="h-28 w-28 cursor-pointer" alt="Parthiba logo" />
-          </Link>
+    <div className="navbar-container py-4 md:py-6">
+      <nav className="bg-black shadow-md w-full px-4 md:px-auto">
+        <div className="md:h-16 h-28 mx-auto md:px-4 container flex items-center justify-between flex-wrap md:flex-nowrap">
+          {/* Logo (Hidden on small screens) */}
+          <div className="text-indigo-500 md:order-1 hidden md:block">
+            <Link href="/">
+              <Image
+                src={logo}
+                className="h-16 w-16 md:h-20 md:w-20"
+                alt="Parthiba logo"
+              />
+            </Link>
+          </div>
+          <div className="text-gray-500 order-3 w-full md:w-auto md:order-2">
+            <ul className="flex font-semibold justify-between text-lg">
+              <li className="md:px-2 md:py-2 px-3 py-2 bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent font-bold">
+                <Link href="/">
+                  Home
+                </Link>
+              </li>
+              <li className="md:px-2 md:py-2 px-3 py-2 hover:text-yellow-700">
+                <Link href="/About">
+                  About Me
+                </Link>
+              </li>
+              <li className="md:px-2 md:py-2 px-3 py-2 hover:text-yellow-700">
+                <Link href="/prevexperience">
+                  Experiences
+                </Link>
+              </li>
+              <li className="md:px-2 md:py-2 px-3 py-2 hover:text-yellow-700">
+                <Link href="/Skills">
+                  Skills
+                </Link>
+              </li>
+              <li className="md:px-2 md:py-2 px-3 py-2 hover:text-yellow-700">
+                <Link href="/seeproject">
+                  My Projects
+                </Link>
+              </li>
+            </ul>
+          </div>
+          <div className="order-2 md:order-3">
+            {/* Contact button (Hidden on small screens) */}
+            <button className="hidden md:inline-block px-3 py-2 bg-gradient-to-br from-yellow-300 to-orange-500 text-gray-50 rounded-xl items-center gap-2 text-sm md:text-base">
+              <span>Contact me</span>
+            </button>
+          </div>
         </div>
-        <div className="flex flex-row text-white  gap-10 text-xl">
-          <Link href="/">
-            <button className="hover:text-orange-300 hover:text-2xl">Home</button>
-          </Link>
-          <Link href="">
-            <button className="hover:text-orange-300 hover:text-2xl">About Me</button>
-          </Link>
-          <Link href="">
-            <button className="hover:text-orange-300 hover:text-2xl">My Projects</button>
-          </Link>
-          <Link href="">
-            <button className="hover:text-orange-300 hover:text-2xl">Contact Me</button>
-          </Link>
-        </div>
-      </div>
+      </nav>
     </div>
   );
 }

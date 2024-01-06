@@ -7,7 +7,7 @@ export default function Contact() {
       <div className="text-center">
           <p className="text-7xl ">Contact Me</p>
         </div>
-    <div className="flex">
+    <div className="sm:flex">
        <Image
           src={pic1}
           className="h-1/2 w-1/2 flex px-40 pt-20 items-center"
@@ -21,7 +21,7 @@ export default function Contact() {
           <form
             action="https://formsubmit.co/meparthiba@gmail.com"
             method="POST"
-            className="flex flex-col py-5 w-96"
+            className="flex flex-col py-5 ml-28 w-96"
           >
             <div className="mb-4">
               <label className="text-xl bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent font-semibold">
