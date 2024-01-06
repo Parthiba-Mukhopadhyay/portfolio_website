@@ -15,7 +15,7 @@ import stackoverflow from "../assets/icons/stackoverflow.svg";
 import Link from "next/link";
 const About = () => {
   return (
-    <div className="bg-black">
+    <div className="bg-black" id="About">
       <div className="lg:m-22 md:pl-14 m-8 flex flex-row ">
         <div className="flex lg:basis-2/3 md:basis-2/3 ">
           <div>

@@ -3,9 +3,9 @@ import pic1 from "../assets/pic1.png";
 import Image from "next/image";
 export default function Contact() {
   return (
-    <div className="flex flex-col mx-auto">
+    <div className="flex flex-col mx-auto" id="contact">
       <div className="text-center">
-          <p className="text-7xl ">Contact Me</p>
+      <p className="text-4xl md:text-7xl p-4">Contact Me</p>
         </div>
     <div className="sm:flex">
        <Image

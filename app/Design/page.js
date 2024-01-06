@@ -5,13 +5,14 @@ import marketplace from "../../assets/projects/marketplace.png";
 import figma from "../../assets/icons/figma.svg";
 import Link from "next/link";
 
+
 const ProjectCard = ({ pic, name, summary, tech, project, icon }) => {
   return (
     <div className="m-8 border-yellow-500 rounded-xl shadow-lg dark:shadow-orange-400 max-w-3xl hover:scale-110 ease-in-out duration-300">
-      <div className="mb-2 items-center flex flex-row">
+      <div className="md:flex-row md:flex md:items-center md:justify-center">
         <Image
           src={pic}
-          className="h-40 w-64 pl-8 rounded-lg shadow-xl"
+          className="md:h-40 md:w-64 h-40 w-64 rounded-lg shadow-xl md:mb-0 mb-4"
           alt={name}
         />
         <div className="flex flex-col p-8">
@@ -44,32 +45,30 @@ const ProjectCard = ({ pic, name, summary, tech, project, icon }) => {
 
 export default function Design() {
   return (
-      <div className="items-center flex flex-col">
-        <div className="pt-8">
-          <p className="text-6xl pt-8 bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent font-semibold">
-            My Designs
-          </p>
-        </div>
-        <div className="grid grid-cols-2 mx-10 gap-y-4 pb-16 pt-8">
-          <ProjectCard
-            pic={clickcare}
-            name="ClickCare"
-            summary="A healthcare app designed to monitor your vitals through Iot
-          wearables and cater to medical needs based on parameters change!"
-            tech="Ui prototype, Figma"
-            project="https://www.figma.com/file/KV3OHwj90DPWI0s5olLP0f/SOLUTION-LAYOUT-WIREFRAME-(Copy)?type=design&node-id=0%3A1&mode=design&t=AUXXXAoQTjET5p1y-1"
-            icon={figma}
-          />
-          <ProjectCard
-            pic={marketplace}
-            name="Marketplace App"
-            summary="Built as a part of MIC, this app aims to unite potential customers
-          and sellers at a local scale!"
-            tech="Ui prototype, Figma"
-            project="https://www.figma.com/file/oGyctsYTBXEonBAVji0zBN/Wireframes?type=design&mode=design&t=AUXXXAoQTjET5p1y-0"
-            icon={figma}
-          />
-        </div>
+    <div className="items-center flex flex-col">
+      <div className="pt-8">
+        <p className="text-6xl pt-8 bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent font-semibold">
+          My Designs
+        </p>
       </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 mx-10 gap-y-4 pb-16 pt-8">
+        <ProjectCard
+          pic={clickcare}
+          name="ClickCare"
+          summary="A healthcare app designed to monitor your vitals through Iot wearables and cater to medical needs based on parameters change!"
+          tech="Ui prototype, Figma"
+          project="https://www.figma.com/file/KV3OHwj90DPWI0s5olLP0f/SOLUTION-LAYOUT-WIREFRAME-(Copy)?type=design&node-id=0%3A1&mode=design&t=AUXXXAoQTjET5p1y-1"
+          icon={figma}
+        />
+        <ProjectCard
+          pic={marketplace}
+          name="Marketplace App"
+          summary="Built as a part of MIC, this app aims to unite potential customers and sellers at a local scale!"
+          tech="Ui prototype, Figma"
+          project="https://www.figma.com/file/oGyctsYTBXEonBAVji0zBN/Wireframes?type=design&mode=design&t=AUXXXAoQTjET5p1y-0"
+          icon={figma}
+        />
+      </div>
+    </div>
   );
 }

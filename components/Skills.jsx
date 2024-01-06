@@ -31,207 +31,203 @@ import scikitlearn from "../assets/icons/scikitlearn.svg";
 
 const Skills = () => {
   return (
-    <div className="bg-black flex justify-center items-center h-50">
+    <div className="bg-black flex justify-center items-center h-50" id="Skills">
       <div className="lg:m-22 md:pl-14 m-8 pb-8">
         <div className="text-center">
-          <p className="text-7xl p-4">Skills</p>
-          <p className="text-2xl p-4 bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent font-semibold">
+        <p className="text-4xl md:text-7xl p-4">Skills</p>
+          <p className="text-lg md:text-2xl p-4 bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent font-semibold">
             Some technologies I worked with!
           </p>
         </div>
         <div>
-          <div className="pl-7 pb-3 flex flex-col">
-            <ul className="flex flex-row gap-10 p-8">
+          <div className="pl-2 md:pl-7 pb-3 flex flex-col">
+            <ul className="flex flex-wrap justify-center gap-10 md:p-8">
               <li>
                 <Image
                   src={html}
-                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
+                  className="h-16 w-16 md:h-20 md:w-20 rounded-lg shadow-xl dark:shadow-gray-800"
                   alt="html"
                 />
               </li>
               <li>
                 <Image
                   src={css}
-                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
+                  className="h-16 w-16 md:h-20 md:w-20 rounded-lg shadow-xl dark:shadow-gray-800"
                   alt="css"
                 />
               </li>
               <li>
                 <Image
                   src={javascript}
-                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
+                  className="h-16 w-16 md:h-20 md:w-20 rounded-lg shadow-xl dark:shadow-gray-800"
                   alt="javascript"
                 />
               </li>
               <li>
                 <Image
                   src={bootstrap}
-                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
+                  className="h-16 w-16 md:h-20 md:w-20 rounded-lg shadow-xl dark:shadow-gray-800"
                   alt="bootstrap"
                 />
               </li>
               <li>
                 <Image
                   src={tailwind}
-                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
+                  className="h-16 w-16 md:h-20 md:w-20 rounded-lg shadow-xl dark:shadow-gray-800"
                   alt="tailwind"
                 />
               </li>
               <li>
                 <Image
                   src={nodejs}
-                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
+                  className="h-16 w-16 md:h-20 md:w-20 rounded-lg shadow-xl dark:shadow-gray-800"
                   alt="nodejs"
                 />
               </li>
               <li>
                 <Image
                   src={expressjs}
-                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
+                  className="h-16 w-16 md:h-20 md:w-20 rounded-lg shadow-xl dark:shadow-gray-800"
                   alt="expressjs"
                 />
               </li>
               <li>
                 <Image
                   src={mysql}
-                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
+                  className="h-16 w-16 md:h-20 md:w-20 rounded-lg shadow-xl dark:shadow-gray-800"
                   alt="mysql"
                 />
               </li>
               <li>
                 <Image
                   src={mongodb}
-                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
+                  className="h-16 w-16 md:h-20 md:w-20 rounded-lg shadow-xl dark:shadow-gray-800"
                   alt="mongodb"
                 />
               </li>
-              </ul>
-              <ul className="flex flex-row gap-10 p-8">
               <li>
                 <Image
                   src={reactjs}
-                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
+                  className="h-16 w-16 md:h-20 md:w-20 rounded-lg shadow-xl dark:shadow-gray-800"
                   alt="reactjs"
                 />
               </li>
               <li>
                 <Image
                   src={nextjs}
-                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
+                  className="h-16 w-16 md:h-20 md:w-20 rounded-lg shadow-xl dark:shadow-gray-800"
                   alt="nextjs"
                 />
               </li>
               <li>
                 <Image
                   src={netlify}
-                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
+                  className="h-16 w-16 md:h-20 md:w-20 rounded-lg shadow-xl dark:shadow-gray-800"
                   alt="netlify"
                 />
               </li>
               <li>
                 <Image
                   src={vercel}
-                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
+                  className="h-16 w-16 md:h-20 md:w-20 rounded-lg shadow-xl dark:shadow-gray-800"
                   alt="vercel"
                 />
               </li>
               <li>
                 <Image
                   src={firebase}
-                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
+                  className="h-16 w-16 md:h-20 md:w-20 rounded-lg shadow-xl dark:shadow-gray-800"
                   alt="firebase"
                 />
               </li>
               <li>
                 <Image
                   src={figma}
-                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
+                  className="h-16 w-16 md:h-20 md:w-20 rounded-lg shadow-xl dark:shadow-gray-800"
                   alt="figma"
                 />
               </li>
               <li>
                 <Image
                   src={git}
-                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
+                  className="h-16 w-16 md:h-20 md:w-20 rounded-lg shadow-xl dark:shadow-gray-800"
                   alt="git"
                 />
               </li>
               <li>
                 <Image
                   src={linux}
-                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
+                  className="h-16 w-16 md:h-20 md:w-20 rounded-lg shadow-xl dark:shadow-gray-800"
                   alt="linux"
                 />
               </li>
               <li>
                 <Image
                   src={matlab}
-                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
+                  className="h-16 w-16 md:h-20 md:w-20 rounded-lg shadow-xl dark:shadow-gray-800"
                   alt="matlab"
                 />
               </li>
-              </ul>
-              <ul className="flex flex-row gap-10 p-8 ">
               <li>
                 <Image
                   src={vscode}
-                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
+                  className="h-16 w-16 md:h-20 md:w-20 rounded-lg shadow-xl dark:shadow-gray-800"
                   alt="vscode"
                 />
               </li>
               <li>
                 <Image
                   src={c}
-                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
+                  className="h-16 w-16 md:h-20 md:w-20 rounded-lg shadow-xl dark:shadow-gray-800"
                   alt="c"
                 />
               </li>              
               <li>
                 <Image
                   src={cpp}
-                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
+                  className="h-16 w-16 md:h-20 md:w-20 rounded-lg shadow-xl dark:shadow-gray-800"
                   alt="cpp"
                 />
               </li>
               <li>
                 <Image
                   src={java}
-                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
+                  className="h-16 w-16 md:h-20 md:w-20 rounded-lg shadow-xl dark:shadow-gray-800"
                   alt="java"
                 />
               </li>
               <li>
                 <Image
                   src={python}
-                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
+                  className="h-16 w-16 md:h-20 md:w-20 rounded-lg shadow-xl dark:shadow-gray-800"
                   alt="python"
                 />
               </li>
               <li>
                 <Image
                   src={r}
-                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
+                  className="h-16 w-16 md:h-20 md:w-20 rounded-lg shadow-xl dark:shadow-gray-800"
                   alt="r"
                 />
               </li>
               <li>
                 <Image
                   src={opencv}
-                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
+                  className="h-16 w-16 md:h-20 md:w-20 rounded-lg shadow-xl dark:shadow-gray-800"
                   alt="opencv"
                 />
               </li>
               <li>
                 <Image
                   src={scikitlearn}
-                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
+                  className="h-16 w-16 md:h-20 md:w-20 rounded-lg shadow-xl dark:shadow-gray-800"
                   alt="scikitlearn"
                 />
               </li>
               <li>
                 <Image
                   src={tensorflow}
-                  className="h-20 w-20 rounded-lg shadow-xl dark:shadow-gray-800"
+                  className="h-16 w-16 md:h-20 md:w-20 rounded-lg shadow-xl dark:shadow-gray-800"
                   alt="Tensorflow"
                 />
               </li>

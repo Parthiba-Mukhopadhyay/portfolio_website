@@ -86,9 +86,9 @@ const Prevexperience = () => {
   ];
 
   return (
-    <div className="flex flex-col px-10 pb-8">
+    <div className="flex flex-col px-10 pb-8" id="prevexperience">
       <div className="text-center">
-        <p className="text-7xl p-4">Experiences</p>
+      <p className="text-4xl md:text-7xl p-4">Experiences</p>
         <p className="text-2xl p-4 bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent font-semibold">
           My previous experiences!
         </p>

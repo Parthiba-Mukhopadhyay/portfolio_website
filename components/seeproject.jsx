@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const Seeproject = () => {
   return (
-    <div className="items-center flex flex-col pb-20">
+    <div className="items-center flex flex-col pb-20" id="seeproject">
       <div>
         <p className="text-4xl md:text-7xl p-4">My projects</p>
       </div>
@@ -18,13 +18,13 @@ const Seeproject = () => {
         </p>
       </div>
 
-      <div className="flex flex-col md:flex-row md:gap-20 items-center justify-center">
+      <div className="flex flex-col gap-10 md:flex-row md:gap-20 items-center justify-center">
         <Link href="/Design">
           <div className="flex flex-col cursor-pointer hover:scale-110 ease-in-out duration-300 items-center rounded-xl border-2 border-yellow-500 shadow-md dark:shadow-orange-400 h-40 md:h-60 w-44 md:w-56">
             <p className="text-2xl md:text-4xl p-2 md:p-4 bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent font-semibold">
               Design
             </p>
-            <Image src={design_logo} className="h-20 md:h-30 w-20 md:w-30 rounded-lg" alt="/" />
+            <Image src={design_logo} className="h-28 md:h-44 w-28 md:w-44 rounded-lg" alt="/" />
           </div>
         </Link>
         <Link href="/Development">

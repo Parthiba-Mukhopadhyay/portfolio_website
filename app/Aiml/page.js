@@ -6,13 +6,14 @@ import nlp from "../../assets/projects/nlp.png";
 import github from "../../assets/icons/github.svg";
 import Link from "next/link";
 
+
 const ProjectCard = ({ pic, name, summary, tech, project, icon }) => {
   return (
     <div className="m-8 border-yellow-500 rounded-xl shadow-lg dark:shadow-orange-400 max-w-3xl hover:scale-110 ease-in-out duration-300">
-      <div className="mb-2 items-center flex flex-row">
+      <div className="md:flex-row md:flex md:items-center">
         <Image
           src={pic}
-          className="h-40 w-64 pl-8 rounded-lg shadow-xl"
+          className="md:h-40 md:w-64 h-40 w-64 rounded-lg shadow-xl md:mb-0 mb-4"
           alt={name}
         />
         <div className="flex flex-col p-8">
@@ -51,7 +52,7 @@ export default function Aiml() {
           My AI/ML Projects
         </p>
       </div>
-      <div className="grid grid-cols-2 mx-10 gap-y-4 pt-8 pb-2">
+      <div className="grid grid-cols-1 md:grid-cols-2 mx-10 gap-y-4 pt-8 pb-2">
         <ProjectCard
           pic={andhadhun}
           name="Andhadhun"
