@@ -6,7 +6,7 @@ import logo from "../assets/Logo.png";
 function NavBar() {
   return (
     <div className="navbar-container py-4 md:py-6">
-      <nav className="bg-black shadow-md w-full px-4 md:px-auto">
+      <nav className=" shadow-md w-full px-4 md:px-auto">
         <div className="md:h-16 h-28 mx-auto md:px-4 container flex items-center justify-between flex-wrap md:flex-nowrap">
           {/* Logo (Hidden on small screens) */}
           <div className="text-indigo-500 md:order-1 hidden md:block">
@@ -40,7 +40,7 @@ function NavBar() {
           <div className="order-2 md:order-3">
             {/* Contact button (Hidden on small screens) */}
             <Link href="#contact">
-              <button className="hidden md:inline-block px-3 py-2 bg-gradient-to-br from-yellow-300 to-orange-500 text-gray-50 rounded-xl items-center gap-2 text-sm md:text-base">
+              <button className="hidden md:inline-block px-3 py-2 bg-gradient-to-br from-yellow-300 to-orange-500 text-gray-50 rounded-xl items-center gap-2 text-sm md:text-base hover:scale-110 ease-in-out duration-300">
                 <span>Contact me</span>
               </button>
             </Link>

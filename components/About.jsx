@@ -15,8 +15,8 @@ import stackoverflow from "../assets/icons/stackoverflow.svg";
 import Link from "next/link";
 const About = () => {
   return (
-    <div className="bg-black" id="About">
-      <div className="lg:m-22 md:pl-14 m-8 flex flex-row ">
+    <div className="pt-4" id="About">
+      <div className="lg:m-22 md:pl-14 m-8 flex flex-col lg:flex lg:flex-row md:flex md:flex-row ">
         <div className="flex lg:basis-2/3 md:basis-2/3 ">
           <div>
             <p className="text-7xl p-4">About Me</p>
@@ -143,7 +143,7 @@ const About = () => {
         </div>
         <Image
           src={myavatar1}
-          className="h-5/6 w-52 flex pt-3 items-center"
+          className="h-5/6 w-52 flex pt-3 items-center mx-auto"
           alt="parthiba"
         />
       </div>

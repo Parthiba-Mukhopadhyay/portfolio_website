@@ -14,14 +14,14 @@ export default function Contact() {
           alt="parthiba"
         />
 
-        <div className="lex flex-col m-8  pb-8 shadow-lg border-white rounded-md mx-auto">
-          <h1 className="text-center font-semibold text-4xl mt-2 bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent">
+        <div className="flex flex-col pb-8 shadow-sm border-2 items-center  border-yellow-500 dark:shadow-orange-400 rounded-md mx-auto">
+          <h1 className="text-center font-semibold text-4xl mt-2 p-3 bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent">
             Let's Connect
           </h1>
           <form
             action="https://formsubmit.co/meparthiba@gmail.com"
             method="POST"
-            className="flex flex-col py-5 ml-28 w-96"
+            className="flex flex-col p-3 mx-7 w-96"
           >
             <div className="mb-4">
               <label className="text-xl bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent font-semibold">

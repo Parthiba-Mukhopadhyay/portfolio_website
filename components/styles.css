@@ -1,4 +1,20 @@
 /* CSS stylesheet */
+
+@import 'animate.css';
+
+.animate__fadeIn {
+  animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .text-animation {
     animation: fade-in-text 1.5s ease-in-out forwards;
   }
@@ -28,4 +44,5 @@
       transform: translateX(0);
     }
   }
+
   

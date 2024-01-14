@@ -31,7 +31,7 @@ import scikitlearn from "../assets/icons/scikitlearn.svg";
 
 const Skills = () => {
   return (
-    <div className="bg-black flex justify-center items-center h-50" id="Skills">
+    <div className=" flex justify-center items-center h-50" id="Skills">
       <div className="lg:m-22 md:pl-14 m-8 pb-8">
         <div className="text-center">
         <p className="text-4xl md:text-7xl p-4">Skills</p>
@@ -135,13 +135,6 @@ const Skills = () => {
               </li>
               <li>
                 <Image
-                  src={firebase}
-                  className="h-16 w-16 md:h-20 md:w-20 rounded-lg shadow-xl dark:shadow-gray-800"
-                  alt="firebase"
-                />
-              </li>
-              <li>
-                <Image
                   src={figma}
                   className="h-16 w-16 md:h-20 md:w-20 rounded-lg shadow-xl dark:shadow-gray-800"
                   alt="figma"
@@ -159,20 +152,6 @@ const Skills = () => {
                   src={linux}
                   className="h-16 w-16 md:h-20 md:w-20 rounded-lg shadow-xl dark:shadow-gray-800"
                   alt="linux"
-                />
-              </li>
-              <li>
-                <Image
-                  src={matlab}
-                  className="h-16 w-16 md:h-20 md:w-20 rounded-lg shadow-xl dark:shadow-gray-800"
-                  alt="matlab"
-                />
-              </li>
-              <li>
-                <Image
-                  src={vscode}
-                  className="h-16 w-16 md:h-20 md:w-20 rounded-lg shadow-xl dark:shadow-gray-800"
-                  alt="vscode"
                 />
               </li>
               <li>
