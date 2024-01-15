@@ -20,6 +20,8 @@ import nodejs from "../assets/icons/nodejs.svg";
 import reactjs from "../assets/icons/reactjs.svg";
 import tailwind from "../assets/icons/tailwind.svg";
 import netlify from "../assets/icons/netlify.svg";
+import appwrite from "../assets/icons/appwrite.svg";
+import jquery from "../assets/icons/jquery.svg";
 import vercel from "../assets/icons/vercel.svg";
 import r from "../assets/icons/r.svg";
 import firebase from "../assets/icons/firebase.svg";
@@ -61,6 +63,13 @@ const Skills = () => {
                   src={javascript}
                   className="h-16 w-16 md:h-20 md:w-20 rounded-lg shadow-xl dark:shadow-gray-800"
                   alt="javascript"
+                />
+              </li>
+              <li>
+                <Image
+                  src={jquery}
+                  className="h-16 w-16 md:h-20 md:w-20 rounded-lg shadow-xl dark:shadow-gray-800"
+                  alt="jquery"
                 />
               </li>
               <li>
@@ -117,6 +126,13 @@ const Skills = () => {
                   src={nextjs}
                   className="h-16 w-16 md:h-20 md:w-20 rounded-lg shadow-xl dark:shadow-gray-800"
                   alt="nextjs"
+                />
+              </li>
+              <li>
+                <Image
+                  src={appwrite}
+                  className="h-16 w-16 md:h-20 md:w-20 rounded-lg shadow-xl dark:shadow-gray-800"
+                  alt="appwrite"
                 />
               </li>
               <li>

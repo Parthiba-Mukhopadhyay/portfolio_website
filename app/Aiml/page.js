@@ -7,41 +7,35 @@ import github from "../../assets/icons/github.svg";
 import Link from "next/link";
 
 
-const ProjectCard = ({ pic, name, summary, tech, project, icon, website }) => {
+const ProjectCard = ({ pic, name, summary, tech, project, icon }) => {
   return (
-    <div className="m-4 md:m-8 border-yellow-500 rounded-xl overflow-hidden shadow-lg dark:shadow-orange-400 max-w-3xl hover:scale-110 ease-in-out duration-300">
-      <div className="md:flex-row md:flex md:items-center md:justify-center">
+    <div className="m-8 border-yellow-500 rounded-xl shadow-lg dark:shadow-orange-400 max-w-3xl hover:scale-110 ease-in-out duration-300">
+      <div className="md:flex-row md:flex md:items-center">
         <Image
           src={pic}
-          className="md:h-48 md:w-64 h-60 w-full object-cover rounded-t-xl md:rounded-l-xl shadow-xl md:mb-0 mb-4 p-4"
+          className="md:h-40 md:w-64 h-40 w-64 rounded-lg shadow-xl md:mb-0 mb-4"
           alt={name}
         />
-        <div className="flex flex-col p-4 md:p-8">
-          <p className="pt-4 pb-2 text-xl md:text-2xl font-semibold bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent hover:size-3xl">
+        <div className="flex flex-col p-8">
+          <p className="px-6 pt-6 pb-2 text-2xl font-semibold bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent hover:size-3xl">
             {name}
           </p>
-          <p className="pb-4">{summary}</p>
-          <p className="bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent pt-2 font-semibold">
+          <p>{summary}</p>
+          <p className="bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent pt-5 font-semibold">
             Tech stacks used
           </p>
           <p className="text-blue-100">{tech}</p>
-          <div className="flex flex-col md:flex-row gap-4 md:gap-8 px-3 md:px-5 pt-3">
+          <div className="flex flex-row px-5 pt-5">
             <Image
               src={icon}
-              className=" h-4 w-4 rounded-lg md:mb-0 mb-2"
+              className="h-10 mr-28 w-10 rounded-lg"
               alt="github"
             />
             <a
-              className="bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent font-semibold hover:text-purple-700 md:mr-2"
+              className="bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent font-semibold hover:text-purple-700 text-lg "
               href={project}
             >
               View project!
-            </a>
-            <a
-              className="bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent font-semibold hover:text-purple-700"
-              href={website}
-            >
-              View Website!
             </a>
           </div>
         </div>

@@ -18,10 +18,31 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  /*background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb));*/
+  
+  margin: 0;
+  overflow: hidden;
+  /*background: url('../assets/vortex.gif') fixed;*/
+  background-color: black;
+  background-size: cover;
+  animation: fadeIn 3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.main-container {
+  height: 100vh; /* Adjust the height as needed */
+  overflow-y: auto;
 }

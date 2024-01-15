@@ -3,18 +3,27 @@
 import React from "react";
 import Image from "next/image";
 import mypic1 from "../assets/mypic1.jpg";
+import bg1 from "../assets/bg1.jpg";
 import Link from "next/link";
 import "./styles.css";
 
 const Hero = () => {
   return (
-    <div className="relative text-white py-2 overflow-hidden opacity-0 animate__animated animate__fadeIn ml-20" id="Hero">
+    <div
+      className="relative text-white py-2 overflow-hidden opacity-0 animate__animated animate__fadeIn ml-20"
+      id="Hero"
+      style={{ backgroundImage: {bg1} }}
+    >
       <div className="container mx-auto relative flex flex-col items-center mt-8">
         <div className="flex items-center mb-8">
           <div className="w-2 h-2 bg-gradient-to-br from-yellow-300 to-orange-500 rounded-full mr-4 animate-bounce"></div>
           <div className="rounded-full overflow-hidden shadow-sm shadow-white">
             <div className="w-48 h-48 ring-4 ring-gray-700 shadow-lg overflow-hidden">
-              <Image src={mypic1} alt="Profile Picture" className="object-cover object-center w-full h-full rounded-full" />
+              <Image
+                src={mypic1}
+                alt="Profile Picture"
+                className="object-cover object-center w-full h-full rounded-full"
+              />
             </div>
           </div>
           <div className="w-2 h-2 bg-gradient-to-br from-yellow-300 to-orange-500 rounded-full ml-4 animate-bounce"></div>
