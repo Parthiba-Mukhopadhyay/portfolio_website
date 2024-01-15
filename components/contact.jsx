@@ -14,7 +14,7 @@ export default function Contact() {
           alt="parthiba"
         />
 
-        <div className="flex flex-col pb-8 shadow-sm border-2 items-center  border-yellow-500 dark:shadow-orange-400 rounded-md mx-auto">
+        <div className="flex flex-col pb-8 shadow-sm  items-center  dark:shadow-orange-400 rounded-md mx-auto">
           <h1 className="text-center font-semibold text-4xl mt-2 p-3 bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent">
             Let's Connect
           </h1>

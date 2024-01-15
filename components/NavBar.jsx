@@ -24,7 +24,7 @@ function NavBar() {
                 <Link href="/">Home</Link>
               </li>
               <li className="md:px-2 md:py-2 px-3 py-2 hover:text-yellow-700">
-                <Link href="#About">About Me</Link>
+                <Link href="#About">About</Link>
               </li>
               <li className="md:px-2 md:py-2 px-3 py-2 hover:text-yellow-700">
                 <Link href="#prevexperience">Experiences</Link>
@@ -33,7 +33,7 @@ function NavBar() {
                 <Link href="#Skills">Skills</Link>
               </li>
               <li className="md:px-2 md:py-2 px-3 py-2 hover:text-yellow-700">
-                <Link href="#seeproject">My Projects</Link>
+                <Link href="#seeproject">Projects</Link>
               </li>
             </ul>
           </div>

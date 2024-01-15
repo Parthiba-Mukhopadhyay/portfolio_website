@@ -9,7 +9,7 @@ import "./styles.css";
 const Hero = () => {
   return (
     <div className="relative text-white py-2 overflow-hidden opacity-0 animate__animated animate__fadeIn ml-20" id="Hero">
-      <div className="container mx-auto relative z-10 flex flex-col items-center mt-8">
+      <div className="container mx-auto relative flex flex-col items-center mt-8">
         <div className="flex items-center mb-8">
           <div className="w-2 h-2 bg-gradient-to-br from-yellow-300 to-orange-500 rounded-full mr-4 animate-bounce"></div>
           <div className="rounded-full overflow-hidden shadow-sm shadow-white">
