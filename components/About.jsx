@@ -135,7 +135,7 @@ const About = () => {
                   download
                   className="text-lg bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent font-semibold"
                 >
-                  Check out my resume!
+                  Check out my resume!!
                 </a>
               </button>
             </div>
