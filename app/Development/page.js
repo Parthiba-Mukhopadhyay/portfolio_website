@@ -5,6 +5,7 @@ import portfolio from "../../assets/projects/portfolio.png";
 import textify from "../../assets/projects/textify.png";
 import gamezone from "../../assets/projects/gamezone.jpg";
 import hmt from "../../assets/projects/hmt.png";
+import npx from "../../assets/projects/npx.png";
 import memories from "../../assets/projects/memories.jpeg";
 import github from "../../assets/icons/github.svg";
 
@@ -58,10 +59,26 @@ export default function Development() {
     <div className="items-center flex flex-col">
       <div className="pt-8 mx-auto">
         <p className="text-6xl pt-8 bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent font-semibold">
-          My Websites
+          My Websites and Developments
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 mx-auto gap-y-4 pt-10 pb-4">
+      <ProjectCard
+          pic={hmt}
+          name="HMT_Architects"
+          summary="Had the opportunity to build the website for the company! Cant share the code due to NDA but do give it a look!"
+          tech="NextJs, Tailwind CSS"
+          website="https://hmtarchitects.com/"
+          icon={github}
+        />
+        <ProjectCard
+          pic={npx}
+          name="Custom npx command"
+          summary="Built an npx command to be executed on terminal and hosted it on npm. Download and execute 'npx itsmeparthiba' and see magic!"
+          tech="Javascript, nodeJs"
+          project="https://github.com/Parthiba-Mukhopadhyay/custom_npx_intro"
+          icon={github}
+        />
         <ProjectCard
           pic={memories}
           name="Memories"
@@ -96,16 +113,6 @@ export default function Development() {
           tech="HTML, CSS, JavaScript"
           project="https://github.com/Parthiba-Mukhopadhyay/dice_game"
           website="https://mydicegame23.netlify.app/"
-          icon={github}
-        />
-      </div>
-      <div className="pb-8">
-        <ProjectCard
-          pic={hmt}
-          name="HMT_Architects"
-          summary="Had the opportunity to build the website for the company! Cant share the code due to NDA but do give it a look!"
-          tech="NextJs, Tailwind CSS"
-          website="https://hmtarchitects.com/"
           icon={github}
         />
       </div>

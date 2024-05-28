@@ -2,8 +2,12 @@
 import Image from "next/image";
 import andhadhun from "../../assets/projects/andhadhun.png";
 import mediaplayer from "../../assets/projects/mediaplayer.png";
+import dip from "../../assets/projects/dip.png";
+import dl from "../../assets/projects/dl.png";
+import mri from "../../assets/projects/mri.png";
 import nlp from "../../assets/projects/nlp.png";
 import github from "../../assets/icons/github.svg";
+
 import Link from "next/link";
 
 
@@ -52,7 +56,15 @@ export default function Aiml() {
           My AI/ML Projects
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 mx-10 gap-y-4 pt-8 pb-2">
+      <div className="grid grid-cols-1 md:grid-cols-2 mx-auto gap-y-4 pt-10 pb-4">
+        <ProjectCard
+          pic={mri}
+          name="Brain MRI Segmentation"
+          summary="A Computer Vision model to detect obstacles and incoming cars, convert the prediction to audio and help the blind people walk their way through!"
+          tech="yoloV5, pyautogui, python"
+          project="https://github.com/Parthiba-Mukhopadhyay/Brain-MRI-Segmentation"
+          icon={github}
+        />
         <ProjectCard
           pic={andhadhun}
           name="Andhadhun"
@@ -69,14 +81,28 @@ export default function Aiml() {
           project="https://github.com/Parthiba-Mukhopadhyay/hand_gesture_media_player"
           icon={github}
         />
-      </div>
-      <div className="pb-8">
-        <ProjectCard
+       <ProjectCard
           pic={nlp}
           name="Spam Detection and Sentiment Analysis"
           summary="Detection of spam messages and twitter tweets sentiment analysis using natural language processing"
           tech="NLP, Python, Colab"
           project="https://github.com/Parthiba-Mukhopadhyay/ML_NLP"
+          icon={github}
+        />
+        <ProjectCard
+          pic={dip}
+          name="Digital Image Processing"
+          summary="A repository containing various operations on images and their processing using suitable libraries."
+          tech="Python, OpenCV, TensorFlow, Pytorch"
+          project="https://github.com/Parthiba-Mukhopadhyay/Digital-Image-Processing"
+          icon={github}
+        />
+         <ProjectCard
+          pic={dl}
+          name="Deep Learning"
+          summary="A repository containing various deep learning algorithms and their implementation using suitable libraries"
+          tech="Python, TensorFlow, Keras, sklearn"
+          project="https://github.com/Parthiba-Mukhopadhyay/Deep-Learning-Projects"
           icon={github}
         />
       </div>

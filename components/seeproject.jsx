@@ -43,6 +43,14 @@ const Seeproject = () => {
             <Image src={AIML_logo} className="h-28 md:h-44 w-28 md:w-44 rounded-lg" alt="/" />
           </div>
         </Link>
+        <Link href="/IoT">
+          <div className="flex flex-col cursor-pointer hover:scale-110 ease-in-out duration-300 items-center rounded-xl border-2 border-yellow-500 shadow-md dark:shadow-orange-400 h-40 md:h-60 w-44 md:w-56">
+            <p className="text-2xl md:text-4xl p-2 md:p-4 bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent font-semibold">
+              IoT
+            </p>
+            <Image src={AIML_logo} className="h-28 md:h-44 w-28 md:w-44 rounded-lg" alt="/" />
+          </div>
+        </Link>
       </div>
     </div>
   );
