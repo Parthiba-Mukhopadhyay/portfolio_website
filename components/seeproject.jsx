@@ -3,6 +3,7 @@ import Image from "next/image";
 import design_logo from "../assets/design_logo.png";
 import development_logo from "../assets/development_logo.png";
 import AIML_logo from "../assets/AIML_logo.png";
+import IoT_logo from "../assets/IoT_logo.png";
 
 import Link from "next/link";
 
@@ -48,7 +49,7 @@ const Seeproject = () => {
             <p className="text-2xl md:text-4xl p-2 md:p-4 bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent font-semibold">
               IoT
             </p>
-            <Image src={AIML_logo} className="h-28 md:h-44 w-28 md:w-44 rounded-lg" alt="/" />
+            <Image src={IoT_logo} className="h-28 md:h-44 w-28 md:w-44 rounded-lg" alt="/" />
           </div>
         </Link>
       </div>
