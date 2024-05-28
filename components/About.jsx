@@ -39,7 +39,7 @@ const About = () => {
               />
             </div>
             <p className="px-8 pb-8 text-white text-lg mr-4">
-              I'm a pre-final year B.Tech student majoring in Computer Science
+              I'm a final year B.Tech student majoring in Computer Science
               Engineering at VIT Chennai. I excel in UI design and full-stack
               development. My expertise lies in AI and ML, with a track record
               of crafting effective ML models for various projects. I always
@@ -131,7 +131,7 @@ const About = () => {
             <div className="px-6 pb-6 cursor-pointer">
               <button className="border-2 p-4 border-yellow-500 rounded-xl shadow-md dark:shadow-orange-400 w-88 hover:bg-purple-900">
                 <a
-                  href="https://drive.google.com/file/d/1eMeC1ctipR5v6Gc-z7i0a-OYU013Zzj1/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1NLCbQZND0wm7nF4biES5CsEKbYsUHorb/view?usp=sharing"
                   download
                   className="text-lg bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent font-semibold"
                 >
