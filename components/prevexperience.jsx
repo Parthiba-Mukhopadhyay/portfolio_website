@@ -78,9 +78,9 @@ const Prevexperience = () => {
   };
 
   const experiences = [
+    { pic: alpha, name: "Alpha Code Labs", time: "Nov'23 - Feb'24", role: "Full Stack Developer Intern", desc:"Working on a finance microservice to be invoked in a management software,\nSettling down cash advances, travel and non travel expenses,\n Generation of pay slips via the architecture", tech:"MongoDB, ExpressJs, ReactJs, NodeJs, Redux" },
     { pic: hmt, name: "HMT Architects", time: "Aug'23 - Oct'23", role: "Web Developer and SEO Intern", desc:"Designed and developed the website for the company,\n Improved the SEO resulting in increase the user traffic by 30% and user performance by 40%,\n", tech:"NextJs, Tailwind CSS, Vercel, Google Search Console" },
-    { pic: alpha, name: "Alpha Code Labs", time: "Oct'23 - Present", role: "Full Stack Developer Intern", desc:"Working on a finance microservice to be invoked in a management software,\nSettling down cash advances, travel and non travel expenses,\n Generation of pay slips via the architecture", tech:"MongoDB, ExpressJs, ReactJs, NodeJs, Redux" },
-    { pic: pehchaan, name: "Pehchaan", time: "Dec'23 - Present", role: "Project Manager", desc:"Responsible for Strategic planning and proper organization of workflow\n Leading team for effective execution of projects", tech:"Google services for effective management" },
+    { pic: pehchaan, name: "Pehchaan", time: "Dec'23 - Mar'24", role: "Project Manager", desc:"Responsible for Strategic planning and proper organization of workflow\n Leading team for effective execution of projects", tech:"Google services for effective management" },
     { pic: gdsc, name: "GDSC", time: "Oct'22 - Present", role: "CP Representative", desc:"Have been managing over 200 members, conducting events and ensuring smooth execution.\n Outreaching for sponsorship and speakers for large-scale events.\n Been a speaker at Google I/O Extended and host at FOSS United Chennai meetup", tech:"Google services for effective management" },
     { pic: mic, name: "MIC", time: "Aug'23 - Present", role: "UI/UX Designer", desc:"Designing the admin panel and club website\n Designed a UI/UX prototype for a marketplace app to promote local vendors", tech:"Figma" },
   ];
