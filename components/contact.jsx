@@ -4,13 +4,13 @@ import Image from "next/image";
 export default function Contact() {
   return (
     <div className="flex flex-col mx-auto" id="contact">
-      <div className="text-center">
-      <p className="text-4xl md:text-7xl p-4">Contact Me</p>
-        </div>
+      <div className="hidden md:block text-center">
+        <p className="text-4xl md:text-7xl p-4">Contact Me</p>
+      </div>
     <div className="sm:flex">
        <Image
           src={pic1}
-          className="h-1/2 w-1/2 flex px-40 pt-20 items-center"
+          className="hidden md:block h-1/2 w-1/2 px-40 pt-20 items-center"
           alt="parthiba"
         />
 
@@ -21,7 +21,7 @@ export default function Contact() {
           <form
             action="https://formsubmit.co/meparthiba@gmail.com"
             method="POST"
-            className="flex flex-col p-3 mx-7 w-96"
+            className="flex flex-col p-3 md:w-96 w-72"
           >
             <div className="mb-4">
               <label className="text-xl bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent font-semibold">

@@ -10,7 +10,7 @@ import "./styles.css";
 const Hero = () => {
   return (
     <div
-      className="relative text-white py-2 overflow-hidden opacity-0 animate__animated animate__fadeIn ml-20"
+      className="relative text-white py-2 overflow-hidden opacity-0 animate__animated animate__fadeIn mx-5"
       id="Hero"
       style={{ backgroundImage: {bg1} }}
     >
@@ -33,18 +33,18 @@ const Hero = () => {
           <span className="bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent font-semibold">
             Parthiba Mukhopadhyay
           </span>
-          ,<br /> your digital wizard crafting wonders in the dark.
+          ,<br /> a digital wizard crafting wonders in the dark.
         </h1>
         <p className="text-lg mb-8 text-center">
           Obsessed with pixels, lines of code, and turning dreams into immersive
           digital experiences. By day, I code. By night, I dream in RGB.
         </p>
         <p className="text-gray-400 max-w-md text-center mb-5">
-          Let's bring new ideas to life!🌌✨
+          Bringing new ideas to life through simplicity!🌌✨
         </p>
         <Link href="#contact">
-          <button className="bg-gradient-to-br from-yellow-300 to-orange-500 hover:scale-110 ease-in-out duration-300 text-white py-2 px-4 rounded-full mt-6 hover:bg-pink-600 transition shadow-md">
-            Lets Connect!
+          <button className="bg-gradient-to-br from-yellow-300 to-orange-500 hover:scale-110 ease-in-out duration-300 text-black font-bold py-2 px-4 rounded-full mt-6 hover:bg-pink-600 transition shadow-md">
+            Contact me!
           </button>
         </Link>
       </div>

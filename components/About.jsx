@@ -20,31 +20,28 @@ const About = () => {
         <div className="flex lg:basis-2/3 md:basis-2/3 ">
           <div>
             <p className="text-7xl p-4">About Me</p>
-            <div className="flex pb-6">
-              <p className="lg:text-3xl text-2xl text-white font-bold pl-8 pt-3 ">
+            <div className="flex items-center pb-6">
+              <p className="lg:text-3xl text-2xl text-white font-bold pl-8 pt-3">
                 I am
               </p>
               <Typed
-                className=" lg:text-3xl text-2xl font-bold pl-2 pt-3 bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent"
+                className="lg:text-3xl text-2xl font-bold pl-2 pt-3 bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent"
                 strings={[
-                  " a Programmer",
+                  "a Programmer",
                   "a Designer",
-                  " a Web developer",
-                  " a ML Enthusiast",
-                  " so much more...",
+                  "a Web developer",
+                  "an ML Enthusiast",
+                  "so much more...",
                 ]}
-                typeSpeed={180}
-                backSpeed={180}
+                typeSpeed={100}
+                backSpeed={50}
                 loop
+                smartBackspace
               />
             </div>
             <p className="px-8 pb-8 text-white text-lg mr-4">
-              I'm a final year B.Tech student majoring in Computer Science
-              Engineering at VIT Chennai. I excel in UI design and full-stack
-              development. My expertise lies in AI and ML, with a track record
-              of crafting effective ML models for various projects. I always
-              look forward to building connections and working on collaborative
-              projects.
+            I'm a final year B.Tech student in Computer Science Engineering at VIT Chennai, blending creativity with code to shape the future. I specialize in UI design and full-stack development, with a passion for AI and ML. With a proven knack for crafting effective ML models, I bring innovative solutions to life. Eager to connect and collaborate on groundbreaking projects, I'm always ready for the next challenge!
+
             </p>
             <p className="px-8 pb-4 font-semibold text-lg bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent mr-4">
               {" "}
@@ -129,16 +126,17 @@ const About = () => {
               </div>
             </div>
             <div className="px-6 pb-6 cursor-pointer">
-              <button className="border-2 p-4 border-yellow-500 rounded-xl shadow-md dark:shadow-orange-400 w-88 hover:bg-purple-900">
-                <a
-                  href="https://drive.google.com/file/d/1NLCbQZND0wm7nF4biES5CsEKbYsUHorb/view?usp=sharing"
-                  download
-                  className="text-lg bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent font-semibold"
-                >
-                  Check out my resume!!
-                </a>
-              </button>
-            </div>
+  <button className="border-2 p-4 border-yellow-500 rounded-xl shadow-md dark:shadow-orange-400 w-56 bg-gradient-to-br from-yellow-300 to-orange-500 hover:from-orange-500 hover:to-yellow-300 transition-colors duration-300">
+    <a
+      href="https://drive.google.com/file/d/1NLCbQZND0wm7nF4biES5CsEKbYsUHorb/view?usp=sharing"
+      download
+      className="text-md text-black font-semibold"
+    >
+      Check out my resume!!
+    </a>
+  </button>
+</div>
+
           </div>
         </div>
         <Image

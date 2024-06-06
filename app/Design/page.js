@@ -9,7 +9,7 @@ import Link from "next/link";
 const ProjectCard = ({ pic, name, summary, tech, project, icon }) => {
   return (
     <div className="m-8 border-yellow-500 rounded-xl shadow-lg dark:shadow-orange-400 max-w-3xl hover:scale-110 ease-in-out duration-300">
-      <div className="md:flex-row md:flex md:items-center md:justify-center">
+      <div className="md:flex-row md:flex md:items-center md:justify-center pt-5">
         <Image
           src={pic}
           className="md:h-40 md:w-64 h-40 w-64 rounded-lg shadow-xl md:mb-0 mb-4"
@@ -47,11 +47,11 @@ export default function Design() {
   return (
     <div className="items-center flex flex-col">
       <div className="pt-8">
-        <p className="text-6xl pt-8 bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent font-semibold">
+        <p className="text-4xl text-center md:text-6xl pt-8 bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent font-semibold">
           My Designs
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 mx-10 gap-y-4 pb-16 pt-8">
+      <div className="items-center mx-20 gap-y-2 pb-16 pt-8">
         <ProjectCard
           pic={clickcare}
           name="ClickCare"

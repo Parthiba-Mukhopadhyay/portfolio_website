@@ -12,8 +12,8 @@ import github from "../../assets/icons/github.svg";
 
 const ProjectCard = ({ pic, name, summary, tech, project, icon, website }) => {
   return (
-    <div className="m-4 md:m-8 border-yellow-500 rounded-xl overflow-hidden shadow-lg dark:shadow-orange-400 max-w-3xl hover:scale-110 ease-in-out duration-300">
-      <div className="md:flex-row md:flex md:items-center md:justify-center">
+    <div className="m-8 border-yellow-500 rounded-xl shadow-lg dark:shadow-orange-400 max-w-3xl hover:scale-110 ease-in-out duration-300">
+      <div className="md:flex-row md:flex md:items-center md:justify-center pt-5">
         <Image
           src={pic}
           className="md:h-48 md:w-64 h-60 w-full object-cover rounded-t-xl md:rounded-l-xl shadow-xl md:mb-0 mb-4 p-4"
@@ -58,11 +58,11 @@ export default function Development() {
   return (
     <div className="items-center flex flex-col">
       <div className="pt-8 mx-auto">
-        <p className="text-6xl pt-8 bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent font-semibold">
+        <p className="text-4xl text-center md:text-6xl pt-8 bg-gradient-to-br from-yellow-300 to-orange-500 bg-clip-text text-transparent font-semibold">
           My Websites and Developments
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 mx-auto gap-y-4 pt-10 pb-4">
+      <div className="items-center gap-y-2 pt-10 pb-4">
       <ProjectCard
           pic={hmt}
           name="HMT_Architects"
