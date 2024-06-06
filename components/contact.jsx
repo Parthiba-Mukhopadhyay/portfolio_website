@@ -19,7 +19,7 @@ export default function Contact() {
             Let's Connect
           </h1>
           <form
-            action="https://formsubmit.co/meparthiba@gmail.com"
+            action="https://formsubmit.co/meparthiba@gmail.com" 
             method="POST"
             className="flex flex-col p-3 md:w-96 w-72"
           >
