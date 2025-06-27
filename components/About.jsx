@@ -128,7 +128,7 @@ const About = () => {
             <div className="px-6 pb-6 cursor-pointer">
   <button className="border-2 p-4 border-yellow-500 rounded-xl shadow-md dark:shadow-orange-400 w-56 bg-gradient-to-br from-yellow-300 to-orange-500 hover:from-orange-500 hover:to-yellow-300 transition-colors duration-300">
     <a
-      href="https://drive.google.com/file/d/1ypOxgDC0afNsEFqeyY2hBvBraKvyuAiu/view?usp=sharing"
+      href="https://drive.google.com/file/d/1BfNGBDZJT3B8cjnCzHXhtI1V-sqwu3SS/view?usp=sharing"
       download
       className="text-md text-black font-semibold"
     >
